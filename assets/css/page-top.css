@@ -1,0 +1,136 @@
+:root {
+    --color-primary: #1aa09a;
+    --color-primary-rgb: 26, 160, 154;
+    --color-primary-contrast: #fbdb1c;
+    --color-secondary: #ffffff;
+    --color-secondary-rgb: 255, 255, 255;
+    --color-secondary-contrast: #666;
+}
+
+@media (hover: hover) {
+    #page-top a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*background: #942D2F;*/
+        border-radius: 5px;
+        width: 60px;
+        height: 60px;
+        color: var(--color-secondary-contrast);
+        font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 0.6rem;
+        transition: all 0.3s;
+        background-color: var(--color-primary-contrast);
+        /*background: url("images/girl1.png") no-repeat center;*/
+        background-size: contain;
+    }
+
+    #page-top a:hover {
+        color: var(--color-primary-contrast);
+        background: var(--color-secondary-contrast);
+    }
+}
+
+@media (hover: none) {
+    #page-top a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*background: #942D2F;*/
+        border-radius: 5px;
+        width: 60px;
+        height: 60px;
+        color: var(--color-secondary-contrast);
+        font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 0.6rem;
+        transition: all 0.3s;
+        background-color: var(--color-primary-contrast);
+        /*background: url("images/girl1.png") no-repeat center;*/
+        background-size: contain;
+    }
+
+    #page-top a:active {
+        color: var(--color-primary-contrast);
+        background: var(--color-secondary-contrast);
+    }
+}
+
+#footer {
+    height: 50px;
+    background-color: rgb(var(--color-primary-rgb), 0.7);
+    color: #fff;
+    text-align: center;
+    font-family: 'Kosugi Maru', sans-serif;
+    padding-top: 30px;
+}
+
+header {
+    height: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+/*footer {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(var(--color-primary-rgb), 0.7);
+    color: #fff;
+    text-align: center;
+    font-family: 'Kosugi Maru', sans-serif;
+    padding-top: 30px;
+    margin-bottom: 0%;
+  }*/
+
+/*リンクを右下に固定*/
+#page-top {
+    position: fixed;
+    right: 10px;
+    z-index: 2;
+    /*はじめは非表示*/
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+/*　上に上がる動き　*/
+
+#page-top.UpMove {
+    animation: UpAnime 0.5s forwards;
+}
+
+@keyframes UpAnime {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*　下に下がる動き　*/
+
+#page-top.DownMove {
+    animation: DownAnime 0.5s forwards;
+}
+
+@keyframes DownAnime {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(100px);
+    }
+}

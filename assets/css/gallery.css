@@ -1,0 +1,151 @@
+/*@font-face {
+    font-family: 瞬きノ明朝;
+    src: url("MatatakiMincho/mirage.otf");
+    font-display: swap;
+}*/
+
+:root {
+    --color-primary: #1aa09a;
+    --color-primary-rgb: 26, 160, 154;
+    --color-primary-contrast: #fbdb1c;
+    --color-secondary: #ffffff;
+    --color-secondary-rgb: 255, 255,255;
+    --color-secondary-contrast: #666;
+}
+
+body {
+    margin: 0px;
+    color: var(--color-primary);
+    font-family: 'Kosugi Maru', "Arial Rounded Mt", serif;
+}
+
+header {
+    font-size: 70px;
+    font-family: 'Kosugi Maru',瞬きノ明朝, serif;
+    color: var(--color-primary);
+    margin: 0px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Kosugi Maru',瞬きノ明朝, serif;
+    color: var(--color-primary);
+    margin: 0px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Kosugi Maru', "Arial Rounded Mt", serif;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+/*スマホ用 outline tap-highlight-color 透過*/
+*:focus {
+    outline: none;
+}
+a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+/*==================================================
+ギャラリーのためのcss
+===================================*/
+.gallery-list {
+    columns: 4;
+    /*段組みの数*/
+    padding: 0 15px;
+    /*ギャラリー左右に余白をつける*/
+    margin: 0;
+}
+
+.gallery-list li {
+    margin-bottom: 20px;
+    /*各画像下に余白をつける*/
+    list-style: none;
+}
+
+/*ギャラリー内のイメージは横幅100%にする*/
+.gallery-list img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    /*画像の下にできる余白を削除*/
+}
+
+
+
+/*　横幅900px以下の段組み設定　*/
+@media only screen and (max-width: 900px) {
+    .gallery-list {
+        columns: 3;
+    }
+    .modaal-content-container {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .gallery-list {
+        columns: 2;
+    }
+    .modaal-content-container {
+        display: block;
+    }
+}
+
+/*modaal*/
+.hide-area {
+    display: none;
+}
+
+.modaal-content-container {
+    background-color: #fff;
+    color: var(--color-primary);
+    font-family: 'Kosugi Maru', sans-serif;
+    display: flex;
+    width: auto;
+    margin: 0px;
+}
+
+@media only screen and (min-width:901px) {
+    .modaal-content-container {
+        height: 75vh;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .modaal-content-container {
+        height: 100%;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .modaal-content-container {
+        height: 100%;
+        display: block;
+    }
+}
+
+.card-img {
+    max-width: 70%;
+    height: auto;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.card-img,
+.card-text {
+    padding-left: 5%;
+}
+
+/*modaal close button:hover color*/
+.modaal-close:hover:before,
+.modaal-close:hover:after {
+    background-color: var(--color-primary-contrast);
+}
