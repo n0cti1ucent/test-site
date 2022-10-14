@@ -51,8 +51,8 @@ p {
 .slider a{
     display: block;
     background:#fff;
-    /*padding:20px;*/
-    height: 10%;
+    padding: 5%;
+    height: 15%;
 }
 
 /*日付*/
