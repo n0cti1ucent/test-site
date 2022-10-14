@@ -22,9 +22,9 @@ title: test-site
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   this site is for test.
-domain: n0cti1ucent.github.io
-baseurl: "https://n0cti1ucent.github.io" # the subpath of your site, e.g. /blog
-url: "/test-site" # the base hostname & protocol for your site, e.g. http://example.com
+#domain: n0cti1ucent.github.io
+#baseurl: "https://n0cti1ucent.github.io" # the subpath of your site, e.g. /blog
+#url: "/test-site" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyll
 github_username:  jekyll
 
