@@ -51,6 +51,10 @@ p {
     padding: 1% 5%;
     background-color: var(--color-primary-contrast);
 }
+.sirases ul {
+    margin: 0px;
+    padding: 0px;
+}
 
 .wrapper {
     width:90%;
