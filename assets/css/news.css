@@ -42,20 +42,15 @@ p {
     margin: 5% 10%;
 }
 
-.slider {
-    width: 70%;
-    text-align: center;
-}
 
-.slider li {
-    text-align: left;
-}
-
+/*==================================================
+ニュースティッカーのためのcss
+===================================*/
 /*ニュース1行の周りの余白*/
 .slider a{
     display: block;
     background:#fff;
-    padding: 2.5%;
+    padding:20px;
 }
 
 /*日付*/
@@ -66,7 +61,7 @@ p {
     color:#777;
 }
 
-/*768px以下の見た目 ※1行のままにしたい場合は不要　
+/*768px以下の見た目　※1行のままにしたい場合は不要
 @media screen and (max-width:768px) {
     .slider {
         padding:20px;
@@ -82,6 +77,17 @@ p {
     }
     .slider span {
         display:block;
-		padding-bottom:10px;
+    padding-bottom:10px;
     }
 }*/
+
+/*========= レイアウトのためのCSS ===============*/
+
+li {
+    list-style-type:none;
+}
+
+.wrapper {
+    width:90%;
+    margin:0 auto;
+}
