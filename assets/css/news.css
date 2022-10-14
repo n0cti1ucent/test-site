@@ -39,12 +39,12 @@ p {
   }
 
 .news-slider {
-    margin: 10% 5%;
     text-align: center;
 }
 
 .slider {
     width: 70%;
+    margin: 5% 10%;
 }
 
 /*ニュース1行の周りの余白*/
