@@ -4,7 +4,7 @@
     <ul>
         <li>
             {% for item in site.data.navigation %}
-            <a href="{{ item.link }}" {% if page.url==item.link %}style="color: var(--color-secondary-contrast);" {% endif %}>
+            <a href="{{ item.link | relative_url }}" {% if page.url==item.link %}style="color: var(--color-secondary-contrast);" {% endif %}>
                 {{ item.name }}
             </a>
             {% endfor %}
