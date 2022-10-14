@@ -38,6 +38,12 @@ p {
     text-align: left;
   }
 
+
+.slider {
+    width: 70%;
+    margin-left: 15%;
+}
+
 /*ニュース1行の周りの余白*/
 .slider a{
     display: block;
