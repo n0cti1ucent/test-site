@@ -16,7 +16,7 @@
 
 
 body {
-  background-image: url("{- /assets/img/header.webp | relative_url -}");
+  background-image: url("{- assets/img/header.webp | relative_url -}");
   background-size: cover;
   margin: 0px;
 }
