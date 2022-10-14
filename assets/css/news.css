@@ -48,7 +48,7 @@ p {
 
 .sirases li {
     margin: 1% 0%;
-    padding: 1.5% 5%;
+    padding: 1% 5%;
     background-color: var(--color-primary-contrast);
 }
 
@@ -82,7 +82,7 @@ p {
         padding-left: 0px;
     }
     .sirases {
-        padding: 0% 2.5%;
+        padding: 0% 0.5%;
     }
     /*.slider {
         padding:20px;
