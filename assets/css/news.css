@@ -3,7 +3,7 @@
     --color-primary-rgb: 26, 160, 154;
     --color-primary-contrast: #fbdb1c;
     --color-secondary: #ffffff;
-    --color-secondary-rgb: 255, 255,255;
+    --color-secondary-rgb: 255, 255, 255;
     --color-secondary-contrast: #666;
 }
 
@@ -13,7 +13,7 @@ body {
 
 h1 {
     font-size: 70px;
-    font-family: 'Kosugi Maru',瞬きノ明朝, serif;
+    font-family: 'Kosugi Maru', 瞬きノ明朝, serif;
     color: var(--color-primary);
     margin: 0px;
     text-align: center;
@@ -36,10 +36,10 @@ p {
     font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
     color: var(--color-secondary-contrast);
     text-align: left;
-  }
+}
 
-  li {
-    list-style-type:none;
+li {
+    list-style-type: none;
 }
 
 .sirases {
@@ -51,14 +51,10 @@ p {
     padding: 1% 5%;
     background-color: var(--color-primary-contrast);
 }
-.sirases ul {
-    margin: 0px;
-    padding: 0px;
-}
 
 .wrapper {
-    width:90%;
-    margin:0 auto;
+    width: 90%;
+    margin: 0 auto;
 }
 
 
@@ -66,18 +62,18 @@ p {
 ニュースティッカーのためのcss
 ===================================*/
 /*ニュース1行の周りの余白*/
-.slider a{
+.slider a {
     display: block;
-    background:#fff;
-    padding:20px;
+    background: #fff;
+    padding: 20px;
 }
 
 /*日付*/
 .slider span {
-    display:inline-block;
-    font-size:0.8rem;
-    margin-right:10px;
-    color:#777;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-right: 10px;
+    color: #777;
 }
 
 /*768px以下の見た目　※1行のままにしたい場合は不要*/
@@ -85,9 +81,12 @@ p {
     .slider {
         padding-left: 0px;
     }
-    .sirases {
-        padding: 0% 0.5%;
+
+    .sirases ul {
+        margin: 0px;
+        padding: 0px;
     }
+
     /*.slider {
         padding:20px;
         background:#fff;
