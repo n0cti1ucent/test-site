@@ -43,7 +43,7 @@ p {
 }
 
 .sirases {
-    padding-left: 10%;
+    padding: 0% 10%;
 }
 
 .sirases li {
@@ -78,6 +78,9 @@ p {
 @media screen and (max-width:768px) {
     .slider {
         padding-left: 0px;
+    }
+    .sirases {
+        padding: 0% 2.5%;
     }
     /*.slider {
         padding:20px;
