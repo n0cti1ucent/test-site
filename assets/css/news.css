@@ -7,6 +7,10 @@
     --color-secondary-contrast: #666;
 }
 
+body {
+    margin: 0%;
+}
+
 h1 {
     font-size: 70px;
     font-family: 'Kosugi Maru',瞬きノ明朝, serif;
