@@ -45,14 +45,14 @@ p {
 .slider {
     width: 70%;
     text-align: center;
-    height: 25%;
 }
 
 /*ニュース1行の周りの余白*/
 .slider a{
     display: block;
     background:#fff;
-    padding:20px 0px;
+    /*padding:20px;*/
+    height: 10%;
 }
 
 /*日付*/
