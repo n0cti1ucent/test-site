@@ -16,14 +16,7 @@ permalink: /news.html
     </ul>
 </div>
 
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <h3><a href="{{ post.author }}">{{ post.title }}</a></h3>
-        {{ post.content }}
-    </li>
-    {% endfor %}
-</ul>
+{{ content }}
 
 
 <footer id="footer">
