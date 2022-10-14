@@ -38,8 +38,13 @@ p {
     text-align: left;
   }
 
-.news-slider {
-    margin: 5% 10%;
+  li {
+    list-style-type:none;
+}
+
+.wrapper {
+    width:90%;
+    margin:0 auto;
 }
 
 
@@ -80,14 +85,3 @@ p {
     padding-bottom:10px;
     }
 }*/
-
-/*========= レイアウトのためのCSS ===============*/
-
-li {
-    list-style-type:none;
-}
-
-.wrapper {
-    width:90%;
-    margin:0 auto;
-}
