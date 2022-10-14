@@ -47,6 +47,10 @@ p {
     text-align: center;
 }
 
+.slider li {
+    text-align: left;
+}
+
 /*ニュース1行の周りの余白*/
 .slider a{
     display: block;
