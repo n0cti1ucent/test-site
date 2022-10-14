@@ -7,10 +7,6 @@
     --color-secondary-contrast: #666;
 }
 
-body {
-    margin: 10%;
-}
-
 h1 {
     font-size: 70px;
     font-family: 'Kosugi Maru',瞬きノ明朝, serif;
@@ -38,7 +34,9 @@ p {
     text-align: left;
   }
 
-
+.news-slider {
+    margin: 10%;
+}
 
 .slider {
     width: 70%;
