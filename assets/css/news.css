@@ -66,7 +66,7 @@ p {
     color:#777;
 }
 
-/*768px以下の見た目　※1行のままにしたい場合は不要
+/*768px以下の見た目　※1行のままにしたい場合は不要*/
 @media screen and (max-width:768px) {
     .slider {
         padding:20px;
@@ -84,4 +84,4 @@ p {
         display:block;
     padding-bottom:10px;
     }
-}*/
+}
