@@ -39,9 +39,10 @@ p {
   }
 
 
+
 .slider {
     width: 70%;
-    margin-left: 15%;
+    padding-left: 15%;
 }
 
 /*ニュース1行の周りの余白*/
