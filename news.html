@@ -20,8 +20,8 @@ permalink: /news.html
     <ul>
         {% for cat in site.cats %}
         <li>
-            <p>date: {{ cat.date | date: "%Y.%m.%d" }}</p>
-            <p>{{ cat.content }}</p>
+            <p>{{ cat.date | date: "%Y.%m.%d" }}</p>
+            <p>{{ cat.title }}</p>
             {% if cat.desc %}
             <p>{{ cat.desc }}</p>
             {% endif %}
