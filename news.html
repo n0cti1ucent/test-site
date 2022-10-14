@@ -16,14 +16,17 @@ permalink: /news.html
     </ul>
 </div>
 
-<ul>
-    {% for cat in site.cats %}
-    <li>
-        <h3><a href="{{ cat.url }}">{{ cat.titles }}</a></h3>
-        <p>{{ cat.content }}</p>
-    </li>
-    {% endfor %}
-</ul>
+<div class="sirases">
+    <ul>
+        {% for cat in site.cats %}
+        <li>
+            <h3><a href="{{ cat.url }}">{{ cat.titles }}</a></h3>
+            <p>{{ cat.content }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
 
 <footer id="footer">
     <p id="page-top"><a href="#">Page Top</a></p>

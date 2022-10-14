@@ -42,6 +42,14 @@ p {
     list-style-type:none;
 }
 
+.sirases {
+    padding-left: 10%;
+}
+
+.sirases li {
+    background-color: var(--color-primary-contrast);
+}
+
 .wrapper {
     width:90%;
     margin:0 auto;
