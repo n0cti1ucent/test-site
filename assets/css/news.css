@@ -47,8 +47,8 @@ p {
 }
 
 .sirases li {
-    margin: 0.5% 0%;
-    padding: 2.5% 5%;
+    margin: 1% 0%;
+    padding: 1.5% 5%;
     background-color: var(--color-primary-contrast);
 }
 
