@@ -46,69 +46,73 @@ li {
     padding: 0% 10%;
 }
 
-.sirases li {
+/*.sirases li {
     margin: 2.5% 0%;
     padding: 1% 5%;
     border: solid 3px var(--color-primary-contrast);
-}
+}*/
 
 .sirases a {
-    /*margin: 2.5% 0%;
-    padding: 1% 5%;*/
+    margin: 2.5% 0%;
+    padding: 1% 5%;
     text-decoration: none;
 }
 
 .button0 a {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /*position: relative;*/
-    margin: 0 auto;
-    padding: 1em 2em;
-    width: 200px;
-    color: var(--color-secondary-contrast);
-    font-size: 18px;
-    font-weight: 700;
-    text-decoration: none;
-    border: 2px solid var(--color-secondary-contrast);
-    /*transition: 0.3s;*/
-  }
-  
-  .button0 a::before {
-    content: '';
-    /*position: absolute;*/
-    top: calc(50% - 2px);
-    right: 1em;
-    /*transform: translateY(calc(-50% - 2px)) rotate(30deg);*/
-    /*width: 12px;
-    height: 2px;*/
-    background-color: var(--color-secondary);
-    /*transition: 0.3s;*/
-  }
-  
-  .button0 a::after {
-    color: var(--color-secondary);
-    content: '';
-    /*position: absolute;*/
-    top: 50%;
-    right: 1em;
-    /*transform: translateY(-50%);*/
-    /*width: 70px;
-    height: 2px;*/
-    background-color: rgba(var(--color-secondary-contrast-rgb), 0.4);
-    /*transition: 0.3s;*/
-  }
-  
-  /*.button0 a:hover:before,
-  .button0 a:hover:after {
-    background-color: #fff;
-  }*/
-  
-  .button0 a:hover {
-    /*color: #fff;*/
-    text-decoration: none;
-    background-color: rgba(var(--color-secondary-contrast-rgb), 0.4);
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  padding: 1em 2em;
+  width: 200px;
+  color: var(--color-secondary);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid var(--color-secondary);
+  transition: 0.3s;
+}
+
+.button0 a::before {
+  content: '';
+  position: absolute;
+  top: calc(50% - 2px);
+  right: 1em;
+  transform: translateY(calc(-50% - 2px)) rotate(30deg);
+  width: 12px;
+  height: 2px;
+  background-color: var(--color-secondary);
+  transition: 0.3s;
+}
+
+.button0 a::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  width: 70px;
+  height: 2px;
+  background-color: var(--color-secondary);
+  transition: 0.3s;
+}
+
+/*.button0 a:hover:before,
+.button0 a:hover:after {
+  background-color: #fff;
+}*/
+
+.button0 a:hover {
+  /*color: #fff;*/
+  text-decoration: none;
+  background-color: rgba(var(--color-secondary-contrast-rgb), 0.4);
+}
+
+.button0 a:hover::before,
+.button0 a:hover::after {
+  right: 0.5em;
+}
 
 .wrapper {
     width: 90%;
