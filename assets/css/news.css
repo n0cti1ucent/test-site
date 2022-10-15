@@ -53,6 +53,9 @@ li {
 }*/
 
 .button0 a {
+    margin: 2.5% 0%;
+    padding: 1% 5%;
+    text-decoration: none;
     color: var(--color-secondary-contrast);
     border: 2px solid var(--color-secondary-contrast);
 }
