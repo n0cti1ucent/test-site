@@ -49,7 +49,7 @@ li {
 .sirases li {
     margin: 2.5% 0%;
     padding: 1% 5%;
-    background-color: var(--color-primary-contrast);
+    border-color: var(--color-primary-contrast);
 }
 
 .wrapper {
