@@ -2,9 +2,9 @@
   link: /
 - name: about
   link: /about.html
+- name: news
+  link: /news.html
 - name: gallery
   link: /gallery.html
 - name: recruit
   link: /recruit.html
-- name: news
-  link: /news.html

@@ -52,6 +52,11 @@ li {
     border: solid 3px var(--color-primary-contrast);
 }
 
+.sirases a {
+    display: inline-block;
+    text-decoration: none;
+}
+
 .wrapper {
     width: 90%;
     margin: 0 auto;
