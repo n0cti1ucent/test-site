@@ -50,6 +50,7 @@ li {
     margin: 2.5% 0%;
     padding: 1% 5%;
     border-color: var(--color-primary-contrast);
+    border-width: 5px;
 }
 
 .wrapper {
