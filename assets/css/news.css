@@ -46,13 +46,15 @@ li {
     padding: 0% 10%;
 }
 
-.sirases li {
+/*.sirases li {
     margin: 2.5% 0%;
     padding: 1% 5%;
     border: solid 3px var(--color-primary-contrast);
-}
+}*/
 
 .sirases a {
+    margin: 2.5% 0%;
+    padding: 1% 5%;
     display: inline-block;
     text-decoration: none;
 }

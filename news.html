@@ -19,7 +19,6 @@ permalink: /news.html
 <div class="sirases">
     <ul>
         {% for cat in site.cats %}
-        <li>
             <a href="{{ cat.url | relative_url }}">
                 <p>{{ cat.date | date: "%Y.%m.%d" }}</p>
                 {{ cat.title }}
@@ -27,7 +26,6 @@ permalink: /news.html
                 <p>{{ cat.desc }}</p>
                 {% endif %}
             </a>
-        </li>
         {% endfor %}
     </ul>
 </div>
