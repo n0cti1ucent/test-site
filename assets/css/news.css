@@ -71,6 +71,7 @@ li {
     flex-wrap: wrap;
     width: 50%;
     flex: 1 0 auto;
+    margin-bottom: 10%;
 }
 
 .headline-entry {
@@ -133,6 +134,10 @@ li {
     .lozad {
         width: 20%;
         height: auto;
+    }
+
+    .news-elements {
+        display: block;
     }
 
     /*.slider {
