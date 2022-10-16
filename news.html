@@ -21,10 +21,10 @@ permalink: /news.html
         {% for cat in site.cats %}
         <li class="button0">
             <a href="{{ cat.url | relative_url }}">
-                <p>{{ cat.date | date: "%Y.%m.%d" }}</p>
                 {{ cat.title }}
                 {% if cat.desc %}
-                <p>{{ cat.desc }}</p>
+                    <p>{{ cat.date | date: "%Y.%m.%d" }}</p>
+                    <p>{{ cat.desc }}</p>
                 {% endif %}
             </a>
         </li>
