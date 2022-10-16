@@ -43,11 +43,11 @@ li {
     list-style-type: none;
 }
 
-.sirases {
+/*.sirases {
     padding: 0% 10%;
 }
 
-/*.sirases li {
+.sirases li {
     margin: 2.5% 0%;
     padding: 1% 5%;
     border: solid 3px var(--color-primary-contrast);
@@ -61,6 +61,10 @@ li {
     color: var(--color-secondary-contrast);
     border: 2px solid var(--color-secondary-contrast);
 }*/
+
+.headline {
+    padding: 0% 10%;
+}
 
 .news-elements {
     display: flex;
