@@ -19,13 +19,13 @@ permalink: /news.html
 <div class="sirases">
     <ul>
         {% for cat in site.cats %}
-        <li class="button0">
-            <a href="{{ cat.url | relative_url }}">
-                {{ cat.title }}
-                {% if cat.desc %}
-                    <p>{{ cat.date | date: "%Y.%m.%d" }}</p>
-                    <p>{{ cat.desc }}</p>
-                {% endif %}
+        <li>
+            <a class="hadline-entry" href="{{ cat.url | relative_url }}">
+                <img class="lozad" src="assets/img/girl1.webp" alt="samneil" data-loaded="true" width="602" height="400">
+                <div class="headline-text">
+                    <small>{{ cat.date | date: "%Y.%m.%d" }}</small>
+                    <span>{{ cat.title }}</span>
+                </div>
             </a>
         </li>
         {% endfor %}

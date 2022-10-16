@@ -9,6 +9,7 @@
 
 body {
     margin: 0%;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -52,13 +53,26 @@ li {
     border: solid 3px var(--color-primary-contrast);
 }*/
 
-.sirases a {
+/*.sirases a {
     margin: 2.5% 0%;
     padding: 1% 5%;
     width: 70%;
     text-decoration: none;
     color: var(--color-secondary-contrast);
     border: 2px solid var(--color-secondary-contrast);
+}*/
+
+.hadline-entry {
+    border-top: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    padding: 0 1em;
+    text-decoration: none;
+    transition: background-clor .25s;
+}
+
+.headline-entry:hover {
+    background-color: #eee;
 }
 
 .wrapper {
