@@ -86,9 +86,9 @@ li {
     background-color: #eee;
 }
 
-.headline-entry:last-child {
+/*.headline-entry:last-child {
     border-bottom: 1px solid #ddd;
-}
+}*/
 
 .lozad {
     width: 10%;
