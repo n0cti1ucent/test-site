@@ -137,7 +137,7 @@ li {
     }
 
     .news-elements {
-        display: block;
+        width: 70%;
     }
 
     /*.slider {
