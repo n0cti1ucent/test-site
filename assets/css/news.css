@@ -115,6 +115,11 @@ li {
         padding: 0px;
     }
 
+    .lozad {
+        width: 20%;
+        height: auto;
+    }
+
     /*.slider {
         padding:20px;
         background:#fff;
