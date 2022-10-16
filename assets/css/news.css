@@ -62,7 +62,15 @@ li {
     border: 2px solid var(--color-secondary-contrast);
 }*/
 
-.hadline-entry {
+.news-elements {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    width: 50%;
+    flex: 1 0 auto;
+}
+
+.headline-entry {
     border-top: 1px solid #ddd;
     display: flex;
     flex-direction: row;
@@ -73,6 +81,10 @@ li {
 
 .headline-entry:hover {
     background-color: #eee;
+}
+
+.headline-entry:last-child {
+    border-bottom: 1px solid #ddd;
 }
 
 .lozad {
