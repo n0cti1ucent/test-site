@@ -65,7 +65,6 @@ li {
 .news-elements {
     display: flex;
     flex-wrap: wrap;
-    padding: 1em;
     width: 50%;
     flex: 1 0 auto;
 }
