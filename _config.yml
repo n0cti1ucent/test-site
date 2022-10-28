@@ -31,6 +31,10 @@ github_username:  jekyll
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: /news/page:num
 
 # Exclude from processing.
 # The following items will not be processed, by default.
