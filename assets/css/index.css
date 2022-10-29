@@ -85,6 +85,10 @@ footer {
   margin: 0 10%;
 }
 
+#nav li a:hover {
+  color: var(--color-secondary);
+}
+
 @media(max-width: 750px) {
   #nav ul {
     flex-wrap: wrap;
