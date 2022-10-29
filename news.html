@@ -19,7 +19,7 @@ permalink: /news.html
 <div class="news-elements">
         {% for cat in site.cats %}
         <div class="headline">
-            <a class="headline-entry" href="{{ cat.url | relative_url }}">
+            <a class="headline-entry" href="{{ cat.url }}">
                 <img class="lozad" src="{{- cat.primaryImage | relative_url -}}" alt="samneil" data-loaded="true" width="602" height="400">
                 <div class="headline-text">
                     <small>{{ cat.date | date: "%Y.%m.%d" }}</small>
