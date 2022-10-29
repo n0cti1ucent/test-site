@@ -60,7 +60,6 @@ footer {
   border-top: 1px soli var(--color-secondary);
   list-style: none;
   overflow: hidden;
-  margin: auto;
 }
 
 #nav ul {
@@ -68,7 +67,6 @@ footer {
 }
 
 #nav li {
-  text-align: center;
   display: flex;
   height: 10%;
   line-height: auto;
