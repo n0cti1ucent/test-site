@@ -115,6 +115,7 @@ footer {
 #nav {
   list-style: noen;
   overflow: hidden;
+  text-align: center;
 }
 
 #nav li {
@@ -128,5 +129,6 @@ footer {
 #nav li a {
   text-decoration: none;
   color: var(--color-secondary);
+  font-style: bold;
   padding: 0% 5%;
 }
