@@ -60,6 +60,7 @@ footer {
   margin-top: 5%;
   border-top: 1px solid var(--color-primary-contrast);
   list-style: none;
+  width: 80%;
   overflow: hidden;
 }
 
