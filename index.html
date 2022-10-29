@@ -2,7 +2,18 @@
 layout: hero
 ---
 
-{% include navigation.html %}
+<nav id="nav">
+  <ul>
+      <li>
+          {% for item in site.data.navigation %}
+          <a href="{{ item.link | relative_url }}" {% if page.url==item.link %}style="color: var(--color-secondary-contrast);" {% endif %}>
+              {{ item.name }}
+          </a>
+          {% endfor %}
+      </li>
+  </ul>
+</nav>
+
 <h1>title</h1>
 <p>o ict association</p>
 <!--<div class="button"></div>-->
