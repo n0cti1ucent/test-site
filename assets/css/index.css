@@ -58,9 +58,8 @@ footer {
 
 #nav {
   border-top: 1px soli var(--color-secondary);
-  list-style: noen;
+  list-style: none;
   overflow: hidden;
-  width: auto;
   margin: auto;
 }
 
