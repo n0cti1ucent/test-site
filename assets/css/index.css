@@ -75,13 +75,14 @@ footer {
   display: flex;
   height: 10%;
   line-height: auto;
+  width: 80%;
 }
 
 #nav li a {
   text-decoration: none;
-  width: 80%;
   color: var(--color-primary-contrast);
   font-style: bold;
+  margin: 0 10%;
 }
 
 @media(max-width: 750px) {
