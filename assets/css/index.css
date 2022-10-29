@@ -61,7 +61,7 @@ footer {
   list-style: noen;
   overflow: hidden;
   width: auto;
-  text-align: center;
+  margin: auto;
 }
 
 #nav li {
@@ -69,7 +69,6 @@ footer {
   display: flex;
   height: 10%;
   line-height: auto;
-  margin-right: 2px;
 }
 
 #nav li a {
