@@ -63,13 +63,16 @@ footer {
 }
 
 #nav ul {
+  padding-left: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 #nav li {
   display: flex;
   height: 10%;
   line-height: auto;
-  margin: 0 auto;
 }
 
 #nav li a {
