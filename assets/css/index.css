@@ -82,7 +82,7 @@ footer {
   text-decoration: none;
   color: var(--color-primary-contrast);
   font-style: bold;
-  margin: 0 10%;
+  margin: 0 5%;
 }
 
 @media(max-width: 750px) {
