@@ -118,9 +118,8 @@ footer {
 }
 
 #nav li {
-  width: auto;
   text-align: center;
-  float: left;
+  display: flex;
   height: 10%;
   line-height: auto;
   margin-right: 2px;
