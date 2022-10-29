@@ -5,18 +5,16 @@ layout: hero
 <h1>title</h1>
 <p>o ict association</p>
 <!--<div class="button"></div>-->
-<div class="button0">
-  <a href="about.html">about</a>
-</div>
 <nav id="nav">
   <ul>
     <li>
       {% for item in site.data.navigation %}
+      {% if page.url!=item.link %}
       <a href="{{ item.link | relative_url }}">
-        {% if page.url!=item.link %}
         {{ item.name }}
-        {% endif %}
       </a>
+      {% endif %}
+
       {% endfor %}
     </li>
   </ul>
