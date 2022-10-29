@@ -82,7 +82,6 @@ footer {
   width: 80%;
   color: var(--color-primary-contrast);
   font-style: bold;
-  padding: 0% 10%;
 }
 
 @media(max-width: 750px) {
