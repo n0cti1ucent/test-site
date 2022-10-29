@@ -65,7 +65,7 @@ footer {
 #nav ul {
   padding-left: 0;
   margin: auto;
-  display: flex;
+  justify-content: center;
 }
 
 #nav li {
