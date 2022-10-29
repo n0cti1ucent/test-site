@@ -14,7 +14,7 @@ layout: recruit
 <p>お探しのページは見つかりませんでした。</p>
 <p><a href="{{ 'index.html' | relative_url }}">oca</a>のトップページへ</p>
 <div class="button0">
-    <a href="/">about</a>
+    <a href="/">top</a>
 </div>
 <script src="assets/js/menu.js"></script>
 <style>
@@ -25,6 +25,7 @@ layout: recruit
         --color-secondary: #ffffff;
         --color-secondary-rgb: 255, 255, 255;
         --color-secondary-contrast: #666;
+  --color-secondary-contrast-rgb: 102, 102, 102;
     }
 
     body {
@@ -100,7 +101,7 @@ layout: recruit
 }*/
 
     .button0 a:hover {
-        /*color: #fff;*/
+        color: var(--color-primary-contrast);
         text-decoration: none;
         background-color: rgba(var(--color-secondary-contrast-rgb), 0.4);
     }
