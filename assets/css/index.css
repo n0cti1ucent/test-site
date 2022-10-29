@@ -79,7 +79,7 @@ footer {
 
 #nav li a {
   text-decoration: none;
-  width: auto;
+  width: 80%;
   color: var(--color-primary-contrast);
   font-style: bold;
   padding: 0% 10%;
