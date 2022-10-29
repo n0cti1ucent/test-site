@@ -37,7 +37,8 @@ p {
   color: var(--color-secondary);
   font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
   /*ローディング画面時＆動画が表示されないときに表示する背景画像のレスポンシブ化*/
-  background: url("/assets/img/header.webp") no-repeat;
+  /*background: url("/assets/img/header.webp") no-repeat;*/
+  background-color: #000;
   background-size: cover;
   margin: 0px;
 }
