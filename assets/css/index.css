@@ -57,8 +57,10 @@ footer {
 }
 
 #nav {
+  border-top: 1px soli var(--color-secondary);
   list-style: noen;
   overflow: hidden;
+  width: auto;
   text-align: center;
 }
 
