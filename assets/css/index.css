@@ -71,7 +71,7 @@ footer {
 }
 
 #nav li {
-  display: flex;
+  display: block;
   height: 10%;
   line-height: auto;
 }
