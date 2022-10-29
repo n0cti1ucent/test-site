@@ -93,4 +93,7 @@ footer {
     width: 50%;
     margin: 0;
   }
+  #nav li a {
+    margin: 0 5%;
+  }
 }
