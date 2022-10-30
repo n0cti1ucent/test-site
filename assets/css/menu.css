@@ -15,7 +15,7 @@
   /*ボタン内側の基点となるためrelativeを指定。
 追従するナビゲーションの場合はfixed＋top、rightといった位置をセットで指定*/
   position: relative;
-  background: rgba(var(--color-primary-rgb), 0.2);
+  background: rgba(var(--color-secondary-rgb), 0.2);
   z-index: 9999;
   top: 10px;
   left: 10px;
@@ -34,7 +34,7 @@
   left: 14px;
   height: 3px;
   border-radius: 2px;
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   width: 45%;
 }
 
@@ -69,6 +69,11 @@
   left: 18px;
   transform: translateY(-6px) rotate(45deg);
   width: 30%;
+}
+
+.openbtn.active {
+  color: var(--color-primary);
+  background-color: rgb(var(--color-secondary-rgb), 0.2);
 }
 
 
