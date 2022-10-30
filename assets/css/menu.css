@@ -72,8 +72,7 @@
 }
 
 .openbtn.active {
-  color: var(--color-primary);
-  background-color: rgb(var(--color-secondary-rgb), 0.2);
+  color: var(--color-secondary);
 }
 
 
