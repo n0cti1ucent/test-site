@@ -71,8 +71,12 @@
   width: 30%;
 }
 
-.openbtn.active {
+.openbtn.active span{
   color: var(--color-secondary);
+}
+
+.openbtn.active {
+  background-color: rgba(var(--color-primary-rgb), 0.9);
 }
 
 
