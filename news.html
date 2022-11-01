@@ -10,14 +10,14 @@ permalink: /news.html
 
 <div class="wrapper">
     <ul class="slider">
-        <li><a href="#"><span>2021.11.01</span>1 つめのニュースの記事です。</a></li>
-        <li><a href="#"><span>2021.11.02</span>2 つめのニュースの記事です。</a></li>
-        <li><a href="#"><span>2021.11.03</span>3 つめのニュースの記事です。</a></li>
+        {% for cat in site.cats limit:3 %}
+        <li><a href="#"><span>{{ cat.date }}</span>{{ cat.title }}</a></li>
+        {% endfor %}
     </ul>
 </div>
 
 <div class="news-elements">
-    {% for cat in site.cats %}
+    {% for cat in site.cats reversed %}
     <div class="headline">
         {% if cat.tag == "final" %}
             <a class="final-child" href="{{ cat.url | relative_url }}">
