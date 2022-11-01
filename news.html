@@ -20,7 +20,7 @@ permalink: /news.html
         {% for cat in site.cats %}
         <div class="headline">
             {% if site.cats[-1] %}
-            <a class="headline-entry" class="final-child" href="{{ cat.url | relative_url }}">
+            <a class="final-child" href="{{ cat.url | relative_url }}">
                 <img class="lozad" src="{{- cat.primaryImage | relative_url -}}" alt="samneil" data-loaded="true" width="602" height="400">
                 <div class="headline-text">
                     <small>{{ cat.date | date: "%Y.%m.%d" }}</small>
