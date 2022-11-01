@@ -17,31 +17,33 @@ permalink: /news.html
 </div>
 
 <div class="news-elements">
-        {% for cat in site.cats %}
-        <div class="headline">
-            {% if cat.tags == "final" %}
+    {% for cat in site.cats %}
+    <div class="headline">
+        {% if cat.tag == "final" %}
             <a class="final-child" href="{{ cat.url | relative_url }}">
-                <img class="lozad" src="{{- cat.primaryImage | relative_url -}}" alt="samneil" data-loaded="true" width="602" height="400">
+                <img class="lozad" src="{{- cat.primaryImage | relative_url -}}" alt="samneil" data-loaded="true"
+                width="602" height="400">
                 <div class="headline-text">
                     <small>{{ cat.date | date: "%Y.%m.%d" }}</small>
                     <span>{{ cat.title }}</span>
                     <p>{{ post.excerpt }}</p>
                 </div>
             </a>
-            {% else %}
+        {% else %}
             <a class="headline-entry" href="{{ cat.url | relative_url }}">
-                <img class="lozad" src="{{- cat.primaryImage | relative_url -}}" alt="samneil" data-loaded="true" width="602" height="400">
+                <img class="lozad" src="{{- cat.primaryImage | relative_url -}}" alt="samneil" data-loaded="true"
+                width="602" height="400">
                 <div class="headline-text">
                     <small>{{ cat.date | date: "%Y.%m.%d" }}</small>
                     <span>{{ cat.title }}</span>
                     <p>{{ post.excerpt }}</p>
                 </div>
             </a>
-            {% endif %}
-        </div>
-        {% endfor %}
+        {% endif %}
+    </div>
+    {% endfor %}
 
-        <!--<div class="lazy-load">
+    <!--<div class="lazy-load">
             <img src="assets/img/girl6.webp" alt="">
         </div>-->
 </div>
