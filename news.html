@@ -19,7 +19,7 @@ permalink: /news.html
 <div class="news-elements">
         {% for cat in site.cats %}
         <div class="headline">
-            {% if site.cats[-1] %}
+            {% if page.tags == "final" %}
             <a class="final-child" href="{{ cat.url | relative_url }}">
                 <img class="lozad" src="{{- cat.primaryImage | relative_url -}}" alt="samneil" data-loaded="true" width="602" height="400">
                 <div class="headline-text">
