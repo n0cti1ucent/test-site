@@ -83,6 +83,10 @@ li {
     transition: background-clor .25s;
 }
 
+.final-child {
+    border-bottom: 1px solid #ddd;
+}
+
 .headline-entry:hover {
     background-color: #eee;
 }
