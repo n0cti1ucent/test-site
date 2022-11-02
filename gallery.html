@@ -23,7 +23,7 @@ layout: gallery
             </a>
         </li>
         <section id="{{ page_num }}" class="hide-area">
-            <video src="{{- opus.primaryMovie | relative_url -}}" class="card-img"></video>
+            <video src="{{- opus.primaryMovie | relative_url -}}" controls muted playsinline poster="{{- opus.primaryImage | relative_url -}}" class="card-img"></video>
             <div class="card-text">
                 <h3>{{ opus.author }}</h3>
                 <p>{{ opus.content }}</p>
