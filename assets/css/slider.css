@@ -36,6 +36,7 @@
 .slick-next {
     position: absolute;
     /*絶対配置にする*/
+    margin-left: 0;
     top: 42%;
     cursor: pointer;
     /*マウスカーソルを指マークに*/
