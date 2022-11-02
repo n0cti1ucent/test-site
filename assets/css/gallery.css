@@ -160,3 +160,9 @@ a {
     top: 50%;
     transform:tanslate(-50%, -50%);
 }
+
+.ph-monitor-play {
+    position: absoute;
+    top: 50%;
+    transform:tanslate(-50%, -50%);
+}
