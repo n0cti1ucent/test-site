@@ -27,6 +27,7 @@
 
 .slider .slick-slide {
     margin: 0 10px;
+    padding: 0;
 }
 
 /*矢印の設定*/
