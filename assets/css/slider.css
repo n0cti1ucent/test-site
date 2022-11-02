@@ -1,9 +1,19 @@
-/*==================================================
+:root {
+    --color-primary: #1aa09a;
+    --color-primary-rgb: 26, 160, 154;
+    --color-primary-contrast: #fbdb1c;
+    --color-secondary: #ffffff;
+    --color-secondary-rgb: 255, 255,255;
+    --color-secondary-contrast: #666;
+    --color-seconary-contrast-rgb: 102, 102, 102;
+  }
+
+  /*==================================================
 スライダーのためのcss
 ===================================*/
 .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
     width:94%;
-     margin:0 auto;
+    margin:0 auto;
  }
  
  .slider img {
@@ -26,8 +36,8 @@
      top: 42%;
      cursor: pointer;/*マウスカーソルを指マークに*/
      outline: none;/*クリックをしたら出てくる枠線を消す*/
-     border-top: 2px solid #072e63;/*矢印の色*/
-     border-right: 2px solid #072e63;/*矢印の色*/
+     border-top: 2px solid var(--color-secondary-contrast);/*矢印の色*/
+     border-right: 2px solid var(--color-secondary-contrast);/*矢印の色*/
      height: 15px;
      width: 15px;
  }
@@ -61,9 +71,9 @@
      height:8px;/*ドットボタンのサイズ*/
      display:block;
      border-radius: 50%;
-     background: azure;/*ドットボタンの色*/
+     background: rgb(fff, fff, fff, 1.0);/*ドットボタンの色*/
  }
  
  .slick-dots .slick-active button{
-     background: #072e63;/*ドットボタンの現在地表示の色*/
+     background: var(--color-primary);/*ドットボタンの現在地表示の色*/
  }
