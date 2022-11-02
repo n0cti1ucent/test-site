@@ -149,3 +149,14 @@ a {
 .modaal-close:hover:after {
     background-color: var(--color-primary-contrast);
 }
+
+/* movie icon*/
+.mv {
+    position: relative;
+}
+
+[class*="ph-"] {
+    position: absoute;
+    top: 50%;
+    transform:tanslate(-50%, -50%);
+}
