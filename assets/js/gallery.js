@@ -24,6 +24,7 @@ $('.slider').slick({
     ]
 });
 
+const audioElement = document.querySelector("audio");
 
 /* modaal */
 $(".gallery").modaal({
@@ -33,6 +34,7 @@ $(".gallery").modaal({
     },
     after_close: function () {// モーダルが閉じた後に行う動作
         $('html').css('overflow-y', 'scroll');/*縦スクロールバーを出す*/
+        audioElement.pause();
     }
 });
 
