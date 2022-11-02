@@ -64,6 +64,7 @@
 /*ドットナビゲーションの設定*/
 
 .slick-dots {
+    list-style: none;
     text-align: center;
     margin: 20px 0 0 0;
 }
