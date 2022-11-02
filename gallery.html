@@ -39,6 +39,7 @@ layout: gallery
             </a>
         </li>
         <section id="{{ page_num }}" class="hide-area">
+            <img src="{{- opus.primaryImage | relative_url -}}" alt="" class="card-img">
             <audio src="{{- opus.primaryAudio | relative_url -}}" controls controlslist="nodownload" class="card-img"></audio>
             <div class="card-text">
                 <h3>{{ opus.author }}</h3>
