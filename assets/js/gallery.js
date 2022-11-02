@@ -25,6 +25,7 @@ $('.slider').slick({
 });
 
 const audioElement = document.querySelector("audio");
+const videoElement = document.querySelector("video");
 
 /* modaal */
 $(".gallery").modaal({
@@ -35,6 +36,7 @@ $(".gallery").modaal({
     after_close: function () {// モーダルが閉じた後に行う動作
         $('html').css('overflow-y', 'scroll');/*縦スクロールバーを出す*/
         audioElement.pause();
+        videoElement.pause();
     }
 });
 
