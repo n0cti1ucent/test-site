@@ -166,3 +166,8 @@ a {
     top: 50%;
     transform:tanslate(-50%, -50%);
 }*/
+
+.ph-monitor-play {
+    size: 20px;
+    color: var(--color-primary);
+}
