@@ -36,7 +36,6 @@
 .slick-next {
     position: absolute;
     /*絶対配置にする*/
-    margin-left: 0;
     top: 42%;
     cursor: pointer;
     /*マウスカーソルを指マークに*/
@@ -65,6 +64,7 @@
 /*ドットナビゲーションの設定*/
 
 .slick-dots {
+    margin-left: 0;
     list-style: none;
     text-align: center;
     margin: 20px 0 0 0;
