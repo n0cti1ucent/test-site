@@ -161,5 +161,5 @@ a {
     right: 50%;
     transform: translate(50%, -50%);
     font-size: 96px;
-    color: var(--color-primary);
+    color: var(--color-secondary-contrast);
 }
