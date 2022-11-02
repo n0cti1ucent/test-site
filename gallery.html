@@ -13,7 +13,7 @@ layout: gallery
 <ul class="gallery-list">
     {% for opus in site.opuses %}
         {% capture page_num %}page{{opus.number}}{% endcapture %}
-        {% if site.tags=="video" %}
+        {% if opus.tags=="video" %}
         <i class="ph-monitor-play"></i>
         <li><a href="#{{ page_num }}" class="gallery"><img src="{{- opus.primaryImage | relative_url -}}" alt="{{ opus.number}}"></a></li>
         {% else %}
