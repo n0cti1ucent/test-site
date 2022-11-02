@@ -131,6 +131,12 @@ a {
         height: 100%;
         display: block;
     }
+    .hide-area video,
+    .hide-area audio,
+    .hide-area img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .card-img {
