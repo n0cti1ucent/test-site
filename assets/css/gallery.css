@@ -155,7 +155,7 @@ a {
     position: relative;
 }
 
-[class*="ph-"] {
+/*[class*="ph-"] {
     position: absoute;
     top: 50%;
     transform:tanslate(-50%, -50%);
@@ -165,4 +165,4 @@ a {
     position: absoute;
     top: 50%;
     transform:tanslate(-50%, -50%);
-}
+}*/
