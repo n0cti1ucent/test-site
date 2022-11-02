@@ -29,6 +29,22 @@ layout: gallery
                 <p>{{ opus.content }}</p>
             </div>
         </section>
+        {% elsif opus.tag=="audio" %}
+        <li>
+            <a href="#{{ page_num }}" class="gallery">
+                <div class="mv">
+                    <img src="{{- opus.primaryImage | relative_url -}}" alt="{{ opus.number}}">
+                    <i class="ph-music-note"></i>
+                </div>
+            </a>
+        </li>
+        <section id="{{ page_num }}" class="hide-area">
+            <audio src="{{- opus.primaryAudio | relative_url -}}" controls muted controlslist="nodownload" class="card-img"></audio>
+            <div class="card-text">
+                <h3>{{ opus.author }}</h3>
+                <p>{{ opus.content }}</p>
+            </div>
+        </section>
         <!--<li><a href="#{{ page_num }}" class="gallery"><img src="{{- opus.primaryImage | relative_url -}}" alt="{{ opus.number}}"></a></li>-->
         {% else %}
         <li><a href="#{{ page_num }}" class="gallery"><img src="{{- opus.primaryImage | relative_url -}}" alt="{{ opus.number}}"></a></li>
