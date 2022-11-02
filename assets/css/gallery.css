@@ -157,7 +157,9 @@ a {
 
 [class*="ph-"] {
     position: absolute;
-    justify-content: center;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
     font-size: 96px;
     color: var(--color-primary);
     transform:tanslate(-50%, -50%);
