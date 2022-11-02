@@ -82,6 +82,7 @@
     height: 5px;
     /*ドットボタンのサイズ*/
     display: block;
+    border: 0;
     border-radius: 50%;
     background: rgb(fff, fff, fff, 1.0);
     /*ドットボタンの色*/
