@@ -15,6 +15,7 @@
     /*横幅94%で左右に余白を持たせて中央寄せ*/
     width: 94%;
     margin: 0 auto;
+    padding-left: 0;
 }
 
 .slider img {
@@ -27,7 +28,6 @@
 
 .slider .slick-slide {
     margin: 0 10px;
-    padding-left: 0;
 }
 
 /*矢印の設定*/
