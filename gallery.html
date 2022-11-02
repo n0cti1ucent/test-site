@@ -27,9 +27,9 @@ layout: gallery
         <section id="{{ page_num }}" class="hide-area">
             <img src="{{- opus.primaryImage | relative_url -}}" alt="" class="card-img">
             <div class="card-text">
-                <span class="ph-monitor-play"></span>
                 <h3>{{ opus.author }}</h3>
                 <p>{{ opus.content }}</p>
+                <i class="ph-monitor-play"></i>
             </div>
         </section>
     {% endfor %}
