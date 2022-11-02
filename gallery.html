@@ -14,8 +14,7 @@ layout: gallery
     {% for opus in site.opuses %}
         {% capture page_num %}page{{opus.number}}{% endcapture %}
         {% if opus.tag=="video" %}
-        <li><a href="#{{ page_num }}" class="gallery">
-            <i class="ph-monitor-play"></i></a></li>
+        <li><a href="#{{ page_num }}" class="gallery" class="ph-monitor-play"></a></li>
         <!--<li><a href="#{{ page_num }}" class="gallery"><img src="{{- opus.primaryImage | relative_url -}}" alt="{{ opus.number}}"></a></li>-->
         {% else %}
         <li><a href="#{{ page_num }}" class="gallery"><img src="{{- opus.primaryImage | relative_url -}}" alt="{{ opus.number}}"></a></li>
