@@ -159,7 +159,7 @@ a {
     position: absolute;
     top: 50%;
     right: 50%;
-    width: 100%;
+    size: 500%;
     color: var(--color-primary);
     transform:tanslate(-50%, -50%);
 }
