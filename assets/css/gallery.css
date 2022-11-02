@@ -161,10 +161,3 @@ a {
     color: var(--color-primary);
     transform:tanslate(-50%, -50%);
 }
-
-.ph-monitor-play {
-    position: absoute;
-    top: 50%;
-    color: var(--color-primary);
-    transform:tanslate(-50%, -50%);
-}
