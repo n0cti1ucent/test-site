@@ -117,6 +117,7 @@ li {
 ===================================*/
 /*ニュース1行の周りの余白*/
 .slider a {
+    text-decoration: none;
     display: block;
     background: #fff;
     padding: 20px;
