@@ -156,7 +156,7 @@ a {
 }
 
 [class*="ph-"] {
-    position: absoute;
+    position: absolute;
     top: 50%;
     color: var(--color-primary);
     transform:tanslate(-50%, -50%);
