@@ -18,6 +18,12 @@ layout: recruit
     <p>毎週火曜日・金曜日</p>
 </div>
 
+<ul class="slider">
+    {% for slideImage in site.slideImages%}
+        {{ site.slideImage }}
+    {% endfor %}
+</ul>
+
 <div class="rec-item">
     <h3>よくある質問</h3>
     <p>Q. 兼部は可能ですか？</p>
