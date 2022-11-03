@@ -18,6 +18,10 @@
   text-align: center;
 }
 
+#top-header h1 {
+  padding-top: 0;
+}
+
 p {
   font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
   color: var(--color-secondary);
