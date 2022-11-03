@@ -1,5 +1,25 @@
 @import "../main.css";
 
+.top-bar {
+  display: flex;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: 'Kosugi Maru', 瞬きノ明朝, serif;
+  color: var(--color-primary);
+  line-height: 1.3em;
+  margin: 0 auto;
+  width: calc(100%-50px);
+  text-align: center;
+}
+
+@media screen and (max-widht: 426px) {
+  header {
+      padding-bottom: 2.5vh;
+  }
+}
+
 /*==================================================
 　5-2-1 3本線が×に
 ===================================*/
