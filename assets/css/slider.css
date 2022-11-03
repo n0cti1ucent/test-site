@@ -85,7 +85,7 @@
 }
 
 .slick-slide .slick-active li {
-    width: auto;
+    width: fit-content;
 }
 
 .slick-dots button {
@@ -113,7 +113,7 @@
     }
 }
 
-@media screen and (max-widht:426px) {
+/*@media screen and (max-widht:426px) {
     .slick-slide img {
     }
-}
+}*/
