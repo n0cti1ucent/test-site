@@ -10,7 +10,7 @@
 
 p {
   font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
-  color: var(--color-secondary);
+  color: var(--color-primary-contrast);
   text-align: center;
 }
 
