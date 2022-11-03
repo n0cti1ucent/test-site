@@ -15,13 +15,13 @@
   width:auto;
 }
 
-h1 {
+#top-header h1 {
   font-size: 24px;
   line-height: 1.3em;
 }
 
 @media screen and (max-widht: 426px) {
-  header {
+  #top-header {
       padding-bottom: 2.5vh;
   }
 }
