@@ -116,7 +116,8 @@ p {
 
 
 /*youtube 上のロゴ */
-#youtube-area h1 {
+#youtube-area h1,
+#loading {
   position: absolute;
   z-index: 2;
   /*下から2番目に表示*/
