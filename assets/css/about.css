@@ -12,7 +12,7 @@
 #header-area h1 {
   font-size: 70px;
   font-family: 'Kosugi Maru';
-  color: rgb(var(--color-primary-rgb), 0.7);
+  color: var(--color-secondary);
   padding-top: 100px;
   text-align: center;
 }
@@ -134,7 +134,7 @@ p {
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   /*色指定*/
-  color: var(--color-secondary);
+  color: rgb(var(--color-primary-rgb), 0.7);
   text-shadow: 0 0 15px --color-secondary-contrast;
 }
 
