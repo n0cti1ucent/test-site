@@ -2,7 +2,7 @@
 
 .top-bar {
   display: flex;
-  height: fit-content;
+  height: auto;
 }
 
 #header {
