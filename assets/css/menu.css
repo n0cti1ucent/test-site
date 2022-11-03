@@ -4,7 +4,7 @@
   display: flex;
 }
 
-h1 {
+#header {
   font-size: 24px;
   font-family: 'Kosugi Maru', 瞬きノ明朝, serif;
   color: var(--color-primary);
