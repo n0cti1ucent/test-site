@@ -41,9 +41,9 @@
     /*マウスカーソルを指マークに*/
     outline: none;
     /*クリックをしたら出てくる枠線を消す*/
-    border-top: 2px solid var(--color-secondary-contrast);
+    border-top: 2px solid var(--color-primary-contrast);
     /*矢印の色*/
-    border-right: 2px solid var(--color-secondary-contrast);
+    border-right: 2px solid var(--color-primary-contrast);
     /*矢印の色*/
     height: 15px;
     width: 15px;

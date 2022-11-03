@@ -24,7 +24,7 @@ h1 {
 
 p {
   font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
-  color: rgb(var(--color-secondary-contrast-rgb), 0.5);
+  color: rgb(var(--color-secondary-contrast-rgb), 0.7);
   text-align: center;
   padding-bottom: 30px;
 }
