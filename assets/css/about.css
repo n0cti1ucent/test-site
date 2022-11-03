@@ -45,6 +45,7 @@ p {
 /* ローディングアイコン設定 */
 
 #loading {
+  font-size: 16px;
   position: absolute;
   top: 40%;
   left: 50%;
