@@ -5,7 +5,7 @@
   height: auto;
 }
 
-#header {
+#top-header {
   height: auto;
   font-family: 'Kosugi Maru', 瞬きノ明朝, serif;
   color: var(--color-primary);
