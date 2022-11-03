@@ -146,7 +146,7 @@ h1 {
   text-align: center;
 }
 
-#top-header {
+#top-header h1{
   z-index: 3;
   padding-top: 0;
   top: 0;
