@@ -44,31 +44,12 @@ p {
 
 /* ローディングアイコン設定 */
 
-#header-area#loading {
-  position: fixed;
-  z-index: 1;
-  /*最背面に設定*/
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-  opacity: 0;
-}
-
-#header-area#loading p {
+#loading {
   position: absolute;
-  z-index: 2;
-  /*下から2番目に表示*/
-  /*天地中央配置*/
-  margin: 100px 0px;
-  padding: 0;
   top: 50%;
   left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  /*色指定*/
-  color: var(--color-secondary);
-  text-shadow: 0 0 15px --color-secondary-contrast;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
 }
 
 /*jQueryで付与されたdisappearクラスがついたらロゴエリアを非表示*/
