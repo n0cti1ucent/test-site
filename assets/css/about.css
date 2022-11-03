@@ -24,6 +24,7 @@ p {
 }
 
 
+
 /*========= 背景動画設定のCSS ===============*/
 
 /*header設定*/
@@ -45,10 +46,19 @@ p {
 
 #loading {
   position: absolute;
+  font-weight: bold;
+  text-align: center;
+  z-index: 2;
+  /*下から2番目に表示*/
+  /*天地中央配置*/
+  margin: 0;
+  padding: 0;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: bold;
+  transform: translateY(-50%) translateX(-50%);
+  /*色指定*/
+  color: var(--color-secondary);
+  /*text-shadow: 0 0 15px --color-secondary-contrast;*/
 }
 
 /*jQueryで付与されたdisappearクラスがついたらロゴエリアを非表示*/
@@ -116,8 +126,7 @@ p {
 
 
 /*youtube 上のロゴ */
-#youtube-area h1,
-#loading p {
+#youtube-area h1 {
   position: absolute;
   z-index: 2;
   /*下から2番目に表示*/
