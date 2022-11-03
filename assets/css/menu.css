@@ -6,7 +6,7 @@
   --color-secondary: #f7f7f7;
   --color-secondary-rgb: 247, 247, 247;
   --color-secondary-contrast: #e2fe02;
-  --color-secondary-contrast: 226, 254, 2;
+  --color-secondary-contrast-rgb: 226, 254, 2;
 }
 .top-bar {
   display: flex;
