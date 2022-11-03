@@ -147,6 +147,6 @@ h1 {
 #top-header h1{
   z-index: 4;
   padding-top: 0;
-  top: 0;
+  top: auto;
   line-height: 1.3em;
 }
