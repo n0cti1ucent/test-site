@@ -17,6 +17,10 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+}
+
 
 p {
   font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
