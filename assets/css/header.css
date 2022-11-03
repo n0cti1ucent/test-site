@@ -3,7 +3,7 @@ header {
     padding-bottom: 5vh;
 }
 h1 {
-    font-size: small;
+    font-size: medium;
 }
 
 @media screen and (max-widht: 426px) {
