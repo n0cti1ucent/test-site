@@ -12,13 +12,13 @@ body {
     box-sizing: border-box;
 }
 
-h1 {
+/*h1 {
     font-size: 70px;
     font-family: 'Kosugi Maru', 瞬きノ明朝, serif;
     color: var(--color-primary);
     margin: 0px;
     text-align: center;
-}
+}*/
 
 h2 {
     font-family: 'Kosugi Maru', "Arial Rounded Mt", serif;
