@@ -145,6 +145,7 @@ p {
   z-index: 3;
   /*一番上に表示*/
   /*見た目の調整*/
+  background: rgb(var(--color-primary-rgb), 0.7);
   color: var(--color-secondary);
   
   padding: 300px 0;
