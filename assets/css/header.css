@@ -1,3 +1,9 @@
+.top-bar {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+
 h1 {
     font-size: 24px;
     font-family: 'Kosugi Maru', 瞬きノ明朝, serif;
@@ -6,12 +12,6 @@ h1 {
     margin: 0 auto;
     width: calc(100%-50px);
     text-align: center;
-}
-
-.top-bar {
-    display: flex;
-    width: 100%;
-    height: fit-content;
 }
 
 @media screen and (max-widht: 426px) {
