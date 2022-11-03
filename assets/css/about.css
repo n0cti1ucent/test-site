@@ -9,7 +9,7 @@
 }
 
 
-#header h1 {
+#header-area h1 {
   font-size: 70px;
   font-family: 'Kosugi Maru';
   color: var(--color-secondary);
@@ -32,7 +32,7 @@ p {
 /*========= 背景動画設定のCSS ===============*/
 
 /*header設定*/
-#header {
+#header-area {
   position: relative;
   /*ローディング画像などを表示す際の基点とするため指定*/
   height: 100vh;
