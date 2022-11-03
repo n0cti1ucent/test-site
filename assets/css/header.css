@@ -6,8 +6,13 @@ h1 {
     font-size: 24px;
     font-family: 'Kosugi Maru', 瞬きノ明朝, serif;
     color: var(--color-primary);
+    line-height: 1.3em;
     margin: 0px;
     text-align: center;
+}
+
+.top-bar {
+    display: flex;
 }
 
 @media screen and (max-widht: 426px) {
