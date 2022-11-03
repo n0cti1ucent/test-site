@@ -43,6 +43,8 @@ p {
   /*ローディング画面時＆動画が表示されないときに表示する背景画像のレスポンシブ化*/
   /*background: url("/assets/img/header.webp") no-repeat;*/
   background-color: #000;
+  margin: 0;
+  padding: 0;
   background-size: cover;
 }
 
@@ -150,7 +152,5 @@ h1 {
 
 #top-header h1{
   z-index: 4;
-  padding-top: 0;
-  top: auto;
-  line-height: 1.3em;
+  top: 1.3em;
 }
