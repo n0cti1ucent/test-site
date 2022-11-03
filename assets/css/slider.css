@@ -84,9 +84,8 @@
     margin: 0 5px;
 }
 
-
-.slick-slide .slick-active p {
-    width: auto;
+.slick-slide .slick-active img {
+    padding: auto;
 }
 
 .slick-dots button {
