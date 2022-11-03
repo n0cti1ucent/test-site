@@ -16,7 +16,7 @@ body {
 h1 {
   font-size: 100px;
   font-family: 'Kosugi Maru',瞬きノ明朝, serif;
-  color: var(--color-secondary);
+  color: rgb(var(--color-primary-contrast-rgb), 0.7);
   margin: 0px;
   padding-top: 100px;
   text-align: center;
@@ -78,7 +78,7 @@ footer {
 }
 
 #nav li a:hover {
-  color: rgb(var(--color-secondary-contrast-rgb), 0.5);
+  color: rgb(var(--color-secondary-contrast-rgb), 0.7);
 }
 
 @media(max-width: 750px) {
