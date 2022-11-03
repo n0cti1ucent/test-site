@@ -84,8 +84,8 @@
     margin: 0 5px;
 }
 
-.slick-slide .slick-active img {
-    padding: auto;
+[id*="slick-slide"] img{
+    margin: 0 auto;
 }
 
 .slick-dots button {
