@@ -102,3 +102,9 @@
     background: var(--color-primary);
     /*ドットボタンの現在地表示の色*/
 }
+
+@media screen and (max-width:768px) {
+    .slick-slide p {
+        font-size: small;
+    }
+}
