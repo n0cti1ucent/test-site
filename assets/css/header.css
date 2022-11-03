@@ -4,6 +4,10 @@ header {
 }
 h1 {
     font-size: 24px;
+    font-family: 'Kosugi Maru', 瞬きノ明朝, serif;
+    color: var(--color-primary);
+    margin: 0px;
+    text-align: center;
 }
 
 @media screen and (max-widht: 426px) {
