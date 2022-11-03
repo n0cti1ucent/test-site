@@ -1,13 +1,10 @@
-header {
-    display: inline-block;
-}
-
 h1 {
     font-size: 24px;
     font-family: 'Kosugi Maru', 瞬きノ明朝, serif;
     color: var(--color-primary);
     line-height: 1.3em;
     margin: 0 auto;
+    width: calc(100%-50px);
     text-align: center;
 }
 
@@ -15,7 +12,6 @@ h1 {
     display: flex;
     width: 100%;
     height: fit-content;
-    justify-content: center;
 }
 
 @media screen and (max-widht: 426px) {
