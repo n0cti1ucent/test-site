@@ -54,7 +54,6 @@ p {
   bottom: 0;
   overflow: hidden;
   opacity: 0;
-  padding-top: 100px;
 }
 
 #header-area#loading p {
@@ -62,7 +61,7 @@ p {
   z-index: 2;
   /*下から2番目に表示*/
   /*天地中央配置*/
-  margin: 0;
+  margin: auto;
   padding: 0;
   top: 50%;
   left: 50%;
