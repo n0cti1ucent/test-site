@@ -15,6 +15,7 @@ h1 {
     display: flex;
     width: 100%;
     height: fit-content;
+    justify-content: center;
 }
 
 @media screen and (max-widht: 426px) {
