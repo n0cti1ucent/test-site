@@ -48,7 +48,8 @@ p {
   position: fixed;
   z-index: 1;
   /*最背面に設定*/
-  top: 50%;
+  padding-top: 100px;
+  top: 0;
   right: 0;
   left: 0;
   bottom: 0;
