@@ -108,3 +108,9 @@
         font-size: 12px;
     }
 }
+
+@media screen and (max-widht:426px) {
+    .slick-slide img {
+        margin: 0, auto;
+    }
+}
