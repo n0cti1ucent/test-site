@@ -153,6 +153,9 @@ p {
 }
 
 #top-header h1{
-  z-index: 9999;
   top: 1.3em;
+}
+
+#top-header {
+  z-index: 2;
 }
