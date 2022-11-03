@@ -84,8 +84,9 @@
     margin: 0 5px;
 }
 
-.slick-slide .slick-active li {
-    width: fit-content;
+
+.slick-slide .slick-active p {
+    width: auto;
 }
 
 .slick-dots button {
@@ -102,10 +103,11 @@
     /*ドットボタンの色*/
 }
 
-.slick-slide .slick-active button {
+.slick-dots .slick-active button {
     background: var(--color-primary);
     /*ドットボタンの現在地表示の色*/
 }
+
 
 @media screen and (max-width:768px) {
     .slick-slide p {
