@@ -45,6 +45,18 @@ p {
 /* ローディングアイコン設定 */
 
 #loading {
+  position: fixed;
+  z-index: 1;
+  /*最背面に設定*/
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+#loading p {
   position: absolute;
   font-weight: bold;
   text-align: center;
