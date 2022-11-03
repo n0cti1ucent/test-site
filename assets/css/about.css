@@ -17,11 +17,6 @@
   text-align: center;
 }
 
-body {
-  margin: 0;
-}
-
-
 p {
   font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
   color: var(--color-secondary);
@@ -43,8 +38,6 @@ p {
   /*ローディング画面時＆動画が表示されないときに表示する背景画像のレスポンシブ化*/
   /*background: url("/assets/img/header.webp") no-repeat;*/
   background-color: #000;
-  margin: 0;
-  padding: 0;
   background-size: cover;
 }
 
