@@ -61,7 +61,7 @@ p {
   z-index: 2;
   /*下から2番目に表示*/
   /*天地中央配置*/
-  margin: auto;
+  margin: 100px 0px;
   padding: 0;
   top: 50%;
   left: 50%;
