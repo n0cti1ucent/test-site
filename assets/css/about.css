@@ -48,13 +48,13 @@ p {
   position: fixed;
   z-index: 1;
   /*最背面に設定*/
-  padding-top: 100px;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
   overflow: hidden;
   opacity: 0;
+  padding-top: 100px;
 }
 
 #header-area#loading p {
