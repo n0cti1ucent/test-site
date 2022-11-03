@@ -9,7 +9,7 @@
 }
 
 
-h1 {
+#header h1 {
   font-size: 70px;
   font-family: 'Kosugi Maru';
   color: var(--color-secondary);
