@@ -4,15 +4,6 @@
     font-display: swap;
 }*/
 
-:root {
-    --color-primary: #1aa09a;
-    --color-primary-rgb: 26, 160, 154;
-    --color-primary-contrast: #fbdb1c;
-    --color-secondary: #ffffff;
-    --color-secondary-rgb: 255, 255,255;
-    --color-secondary-contrast: #666;
-}
-
 .top-bar {
     display: flex;
 }

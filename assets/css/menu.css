@@ -1,5 +1,13 @@
-@import "/assets/css/main.css";
-
+:root {
+  --color-primary: #aeaeac;
+  --color-primary-rgb: 174, 174, 172;
+  --color-primary-contrast: #545454;
+  --color-primary-contrast-rgb: 84, 84, 84;
+  --color-secondary: #f7f7f7;
+  --color-secondary-rgb: 247, 247, 247;
+  --color-secondary-contrast: #e2fe02;
+  --color-secondary-contrast: 226, 254, 2;
+}
 .top-bar {
   display: flex;
   height: auto;
