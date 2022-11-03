@@ -19,9 +19,10 @@
 }
 
 .slider img {
-    width: 100%;
+    /*width: 100%;*/
     /*スライダー内の画像を横幅100%に*/
     /*height: auto;*/
+    width: auto;
     height: 30vw;
     max-height: 400px;
     min-height: 350px;
