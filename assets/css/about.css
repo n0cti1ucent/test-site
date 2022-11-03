@@ -147,6 +147,7 @@ h1 {
 }
 
 #top-header {
+  z-index: 3;
   padding-top: 0;
   top: 0;
 }
