@@ -19,6 +19,10 @@ layout: recruit
 <script src="assets/js/menu.js"></script>
 <style>
 
+    h1 {
+        color: var(--color-primary-contrast);
+    }
+
     body {
         margin: 0px;
         color: var(--color-primary);
@@ -93,11 +97,13 @@ layout: recruit
 
     .button0 a:hover {
         text-decoration: none;
+        color: rgb(var(--color-secondary-contrast-rgb), 0.7);
         background-color: rgba(var(--color-primary-contrast-rgb), 0.4);
     }
 
     .button0 a:hover::before,
     .button0 a:hover::after {
+        color: rgb(var(--color-secondary-contrast-rgb), 0.7);
         right: 0.5em;
     }
 </style>
