@@ -138,6 +138,7 @@ a {
 
 .card-text {
     text-align: left;
+    color: var(--color-primary-contrast);
 }
 
 .card-img,
@@ -162,5 +163,5 @@ a {
     right: 50%;
     transform: translate(50%, -50%);
     font-size: 96px;
-    color: rgb(var(--color-primary-rgb), 0.75);
+    color: rgb(var(--color-secondary-contrast-rgb), 0.5);
 }
