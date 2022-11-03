@@ -102,7 +102,7 @@
     /*ドットボタンの色*/
 }
 
-.slick-dots .slick-active button {
+.slick-slide .slick-active button {
     background: var(--color-primary);
     /*ドットボタンの現在地表示の色*/
 }
