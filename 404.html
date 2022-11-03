@@ -7,16 +7,17 @@ layout: recruit
 <link rel="stylesheet" href="assets/css/menu.css">
 <link rel="stylesheet" href="assets/css/header.css">
 {% include navigation.html %}
-<h1>404</h1>
-<p>The page you're looking for can't be found.</p>
-<p>お探しのページは見つかりませんでした。</p>
-<p>トップページへ</p>
-<div class="button0">
-    <a href="{{ '/' | relative_url }}">top</a>
+<div class="not-found">
+    <h1>404</h1>
+    <p>The page you're looking for can't be found.</p>
+    <p>お探しのページは見つかりませんでした。</p>
+    <p>トップページへ</p>
+    <div class="button0">
+        <a href="{{ '/' | relative_url }}">top</a>
+    </div>
 </div>
 <script src="assets/js/menu.js"></script>
 <style>
-
     body {
         margin: 0px;
         color: var(--color-primary);
@@ -24,10 +25,13 @@ layout: recruit
         text-align: center;
     }
 
-    h1 {
+    .not-found {
+        margin: auto;
+    }
+
+    .not-found h1 {
         font-size: 48px;
         line-height: 1.3em;
-        margin-top: 5%;
         color: var(--color-primary-contrast);
     }
 
