@@ -31,7 +31,7 @@ h1 {
 h2 {
     font-family: 'Kosugi Maru', "Arial Rounded Mt", serif;
     text-align: center;
-    color: var(--color-primary);
+    color: var(--color-primary-contrast);
 }
 
 /*スマホ用 outline tap-highlight-color 透過*/
@@ -163,5 +163,5 @@ a {
     right: 50%;
     transform: translate(50%, -50%);
     font-size: 96px;
-    color: rgb(var(--color-secondary-contrast-rgb), 0.5);
+    color: rgb(var(--color-secondary-contrast-rgb), 0.7);
 }

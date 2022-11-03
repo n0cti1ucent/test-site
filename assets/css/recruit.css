@@ -23,7 +23,7 @@ body {
 h2 {
     font-family: 'Kosugi Maru', "Arial Rounded Mt", serif;
     text-align: center;
-    color: var(--color-primary);
+    color: var(--color-primary-contrast);
 }
 
 h3 {
