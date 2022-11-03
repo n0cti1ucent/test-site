@@ -61,7 +61,7 @@
   left: 14px;
   height: 3px;
   border-radius: 2px;
-  background-color: rgb(var(--color-secondary-contrast), 0.7);
+  background-color: rgb(var(--color-secondary-contrast-rgb), 0.7);
   width: 45%;
 }
 
