@@ -22,7 +22,13 @@ h1 {
   text-align: center;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 75px;
+  }
+}
+
+@media screen and (max-width: 432px) {
   h1 {
     font-size: 50px;
   }
@@ -127,7 +133,7 @@ footer {
 
 /*768px以下の見た目　※1行のままにしたい場合は不要*/
 @media screen and (max-width:768px) {
-  .slider {
+  /*.slider {
       padding-left: 0px;
   }
 
@@ -143,7 +149,7 @@ footer {
 
   .news-elements {
       width: 100%;
-  }
+  }*/
 
   /*.slider {
       padding:20px;
