@@ -6,14 +6,6 @@ permalink: /news.html
 
 <h2>news</h2>
 
-<div class="wrapper">
-    <ul class="slider">
-        {% for cat in site.cats limit:3 %}
-        <li><a href="#"><span>{{ cat.date }}</span>{{ cat.title }}</a></li>
-        {% endfor %}
-    </ul>
-</div>
-
 <div class="news-elements">
     {% for cat in site.cats reversed %}
     <div class="headline">
