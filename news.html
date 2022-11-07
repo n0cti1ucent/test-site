@@ -7,25 +7,25 @@ permalink: /news.html
 <h2>news</h2>
 
 <div class="news-elements">
-    {% for cat in site.cats reversed %}
+    {% for post in site.posts reversed %}
     <div class="headline">
         {% if forloop.last %}
-        <a class="headline-entry final-child" href="{{ cat.url | relative_url }}">
-            <img class="lozad" src="{{- cat.primaryImage | relative_url -}}" alt="samneil" data-loaded="true"
+        <a class="headline-entry final-child" href="{{ post.url | relative_url }}">
+            <img class="lozad" src="{{- post.primaryImage | relative_url -}}" alt="samneil" data-loaded="true"
                 width="602" height="400">
             <div class="headline-text">
-                <small>{{ cat.date | date: "%Y.%m.%d" }}</small>
-                <span>{{ cat.title }}</span>
+                <small>{{ post.date | date: "%Y.%m.%d" }}</small>
+                <span>{{ post.title }}</span>
                 <p>{{ post.excerpt }}</p>
             </div>
         </a>
         {% else %}
-        <a class="headline-entry" href="{{ cat.url | relative_url }}">
-            <img class="lozad" src="{{- cat.primaryImage | relative_url -}}" alt="samneil" data-loaded="true"
+        <a class="headline-entry" href="{{ post.url | relative_url }}">
+            <img class="lozad" src="{{- post.primaryImage | relative_url -}}" alt="samneil" data-loaded="true"
                 width="602" height="400">
             <div class="headline-text">
-                <small>{{ cat.date | date: "%Y.%m.%d" }}</small>
-                <span>{{ cat.title }}</span>
+                <small>{{ post.date | date: "%Y.%m.%d" }}</small>
+                <span>{{ post.title }}</span>
                 <p>{{ post.excerpt }}</p>
             </div>
         </a>
