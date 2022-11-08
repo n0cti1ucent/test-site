@@ -41,3 +41,11 @@ $('#page-top').click(function () {
     }, 500);//ページトップスクロールの速さ。数字が大きいほど遅くなる
     return false;//リンク自体の無効化
 });
+
+
+$(function(){
+  var $ftr = $('#footer');
+  if( window.innerHeight > $ftr.offset().top + $ftr.outerHeight() ){
+    $ftr.attr({'style': 'position:fixed; top:' + (window.innerHeight - $ftr.outerHeight()) + 'px;' });
+  }
+});
