@@ -1,4 +1,6 @@
-
+body {
+  font-family: "游ゴシック体 Medium", "YuGothic Medium", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック Medium", "Yu Gothic Medium", sans-serif;
+}
 
 #header-area h1 {
   font-size: 70px;
@@ -9,7 +11,6 @@
 }
 
 p {
-  font-family: "游ゴシック体 Medium", "YuGothic Medium", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック Medium", "Yu Gothic Medium", sans-serif;
   color: var(--color-primary-contrast);
   text-align: center;
 }

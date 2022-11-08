@@ -9,6 +9,7 @@ body {
 }
 
 .pager {
+    margin: 10% 0;
     display: flex;
 }
 
@@ -20,11 +21,9 @@ body {
     color: rgb(var(--color-secondary-contrast-rgb), 0.7);
 }
 
-.pager__item--prev {
-    margin-right: 10%;
-    margin-left: auto;
-}
 .pager__item--next {
-    margin-left: 10%;
-    margin-right: auto;
+    margin-left: 20%
+}
+.pager__item--prev {
+    margin-right: 20%;
 }

@@ -61,6 +61,7 @@ footer {
 }
 
 #nav {
+  font-family: 'Kosugi Maru', serif;
   margin: 5% auto;
   border-top: 1px solid var(--color-secondary);
   list-style: none;
