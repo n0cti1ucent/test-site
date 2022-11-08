@@ -42,7 +42,7 @@ $('#page-top').click(function () {
     return false;//リンク自体の無効化
 });
 
-
+//footer 高さが十分でない場合でも底に配置
 $(function(){
   var $ftr = $('#footer');
   if( window.innerHeight > $ftr.offset().top + $ftr.outerHeight() ){

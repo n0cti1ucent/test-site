@@ -1,6 +1,7 @@
 body {
     margin: 0%;
     box-sizing: border-box;
+    font-family: 'Kosugi Maru', "Arial Rounded Mt", serif;
 }
 
 /*h1 {
@@ -73,6 +74,11 @@ li {
     text-decoration: none;
     transition: background-clor .25s;
 }
+
+.headline-entry a {
+    color: var(--color-primary-contrast);
+}
+
 
 .final-child {
     border-top: 1px solid #ddd;

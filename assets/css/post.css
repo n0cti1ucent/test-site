@@ -19,17 +19,11 @@ body {
     color: rgb(var(--color-secondary-contrast-rgb), 0.7);
 }
 
-.pager__item--next {
+.pager__item--prev {
     margin-right: 10%;
     margin-left: auto;
 }
-.pager__item--prev {
+.pager__item--next {
     margin-left: 10%;
     margin-right: auto;
 }
-
-/*#footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}*/
