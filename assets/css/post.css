@@ -1,0 +1,9 @@
+.container {
+    margin: 0;
+    font-family: 'Kosugi Maru', "Arial Rounded Mt", serif;
+    color: var(--color-primary-contrast);
+}
+
+.pager {
+    text-decoration: none;
+}

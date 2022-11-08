@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/post.css">
     <title>{{ site.title }}</title>
 </head>
 
@@ -14,6 +16,8 @@
     <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
     {{ content }}-->
+
+    {% include navigation.html %}
 
     <div class="contents page">
         <div class="container">
@@ -54,6 +58,7 @@
         <!--container-->
     </div>
     <!--page-->
+    <script src="assets/js/menu.js"></script>
 </body>
 
 </html>
