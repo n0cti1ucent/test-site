@@ -22,8 +22,10 @@ body {
 }
 
 .pager__item--next {
-    margin-left: 20%
+    margin-right: auto;
+    margin-left: 30%;
 }
 .pager__item--prev {
-    margin-right: 20%;
+    margin-left: auto;
+    margin-right: 30%;
 }
