@@ -87,7 +87,7 @@ footer {
   text-decoration: none;
   color: var(--color-secondary);
   font-style: bold;
-  margin: 0 10%;
+  margin: 0 auto;
 }
 
 #nav li a:hover {
@@ -103,7 +103,7 @@ footer {
     margin: 0;
   }
   #nav li a {
-    margin: 0 5%;
+    margin: 0 auto;
   }
 }
 
