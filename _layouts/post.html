@@ -25,7 +25,7 @@
         <div class="container">
 
             <div class="page__header">
-                <h1 class="page__title">{{ page.title }}</h1>
+                <h2 class="page__title">{{ page.title }}</h2>
                 <p class="page__date">{{ page.date | date: "%Y.%m.%d" }}</p>
             </div>
 
@@ -52,7 +52,7 @@
                     <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }} &gt;</a>
                 </p>
                 {% endif %}
-                
+
             </div>
             <!--pager-->
 

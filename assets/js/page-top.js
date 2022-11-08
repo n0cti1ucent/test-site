@@ -1,3 +1,11 @@
+//footer 高さが十分でない場合でも底に配置
+$(function () {
+    var $ftr = $('#footer');
+    if (window.innerHeight > $ftr.offset().top + $ftr.outerHeight()) {
+        $ftr.attr({ 'style': 'position:fixed; width: 100%; top:' + (window.innerHeight - $ftr.outerHeight()) + 'px;' });
+    }
+});
+
 //スクロールした際の動きを関数でまとめる
 function PageTopAnime() {
 
@@ -40,12 +48,4 @@ $('#page-top').click(function () {
         scrollTop: 0//ページトップまでスクロール
     }, 500);//ページトップスクロールの速さ。数字が大きいほど遅くなる
     return false;//リンク自体の無効化
-});
-
-//footer 高さが十分でない場合でも底に配置
-$(function(){
-  var $ftr = $('#footer');
-  if( window.innerHeight > $ftr.offset().top + $ftr.outerHeight() ){
-    $ftr.attr({'style': 'position:fixed; width: 100%; top:' + (window.innerHeight - $ftr.outerHeight()) + 'px;' });
-  }
 });

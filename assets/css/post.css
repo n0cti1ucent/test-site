@@ -1,6 +1,7 @@
 body {
     margin: 0;
 }
+
 .container {
     margin: 0 10%;
     font-family: "游ゴシック体 Medium", "YuGothic Medium", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック Medium", "Yu Gothic Medium", sans-serif;
@@ -17,15 +18,17 @@ body {
     color: var(--color-primary-contrast);
     text-decoration: none;
 }
+
 .pager a:hover {
     color: rgb(var(--color-secondary-contrast-rgb), 0.7);
 }
 
 .pager__item--next {
     margin-right: auto;
-    margin-left: 30%;
+    margin-left: 25%;
 }
+
 .pager__item--prev {
     margin-left: auto;
-    margin-right: 30%;
+    margin-right: 25%;
 }
