@@ -101,7 +101,6 @@ a {
 .modaal-content-container {
     background-color: #fff;
     color: var(--color-primary);
-    font-family: 'Kosugi Maru', sans-serif;
     display: flex;
     width: auto;
     margin: 0px;
