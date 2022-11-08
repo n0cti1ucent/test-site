@@ -75,6 +75,9 @@ li {
     transition: background-clor .25s;
     color: var(--color-primary-contrast);
 }
+.headline-entry:hover {
+    background-color: rgb(var(--color-primary-rgb), 0.2);
+}
 
 .final-child {
     border-top: 1px solid #ddd;
@@ -85,14 +88,6 @@ li {
     transition: background-clor .25s;
     border-bottom: 1px solid #ddd;
 }
-
-.headline-entry:hover {
-    background-color: #eee;
-}
-
-/*.headline-entry:last-child {
-    border-bottom: 1px solid #ddd;
-}*/
 
 .lozad {
     width: 10%;
