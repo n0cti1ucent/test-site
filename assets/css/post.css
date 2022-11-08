@@ -20,9 +20,7 @@
 
 .pager__item--next {
     margin-right: 10%;
-    text-align: left;
 }
 .pager__item--prev {
     margin-left: 10%;
-    text-align: right;
 }
