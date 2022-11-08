@@ -6,6 +6,7 @@
 
 .pager {
     width: 90%;
+    display: flex;
 }
 
 .pager a {
@@ -17,10 +18,8 @@
 }
 
 .pager__item--next {
-    display: relative;
     text-align: left;
 }
 .pager__item--prev {
-    display: relative;
     text-align: right;
 }
