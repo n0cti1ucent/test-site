@@ -102,9 +102,6 @@ footer {
     width: 80%;
     margin: 0;
   }
-  #nav li a {
-    margin: 0 auto;
-  }
 }
 
 .wrapper {
@@ -122,6 +119,11 @@ footer {
   display: block;
   background: var(--color-secondary);
   padding: 20px;
+}
+
+.slider{
+  padding-left: 0;
+  list-style: none;
 }
 
 /*日付*/
