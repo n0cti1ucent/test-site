@@ -24,7 +24,7 @@ body {
 }
 
 .pager a:hover {
-    color: rgb(var(--color-secondary-contrast-rgb), 0.7);
+    color: var(--color-primary);
 }
 
 .pager__item--next {
