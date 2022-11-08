@@ -104,7 +104,7 @@
 }
 
 .openbtn.active {
-  background-color: rgba(var(--color-secondary-rgb), 0.5);
+  background-color: rgba(var(--color-secondary-rgb), 0.3);
 }
 
 
