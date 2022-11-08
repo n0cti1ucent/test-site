@@ -73,12 +73,8 @@ li {
     padding: 0 1em;
     text-decoration: none;
     transition: background-clor .25s;
-}
-
-.headline-entry a {
     color: var(--color-primary-contrast);
 }
-
 
 .final-child {
     border-top: 1px solid #ddd;
