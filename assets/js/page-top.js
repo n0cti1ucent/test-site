@@ -46,6 +46,6 @@ $('#page-top').click(function () {
 $(function(){
   var $ftr = $('#footer');
   if( window.innerHeight > $ftr.offset().top + $ftr.outerHeight() ){
-    $ftr.attr({'style': 'position:fixed; top:' + (window.innerHeight - $ftr.outerHeight()) + 'px;' });
+    $ftr.attr({'style': 'position:fixed; width: 100%; top:' + (window.innerHeight - $ftr.outerHeight()) + 'px;' });
   }
 });
