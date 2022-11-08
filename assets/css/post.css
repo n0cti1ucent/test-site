@@ -17,10 +17,10 @@
 }
 
 .pager__item--next {
-    display: flex;
+    display: relative;
     text-align: left;
 }
 .pager__item--prev {
-    display: flex;
+    display: relative;
     text-align: right;
 }
