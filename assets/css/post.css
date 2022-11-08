@@ -4,8 +4,16 @@
     color: var(--color-primary-contrast);
 }
 
+.pager {
+    width: 90%;
+}
+
 .pager a {
+    color: var(--color-primary-contrast);
     text-decoration: none;
+}
+.pager a:hover {
+    color: rgb(var(--color-secondary-contrast-rgb), 0.7);
 }
 
 .pager__item--next {
@@ -13,8 +21,4 @@
 }
 .pager__item--prev {
     text-align: right;
-}
-
-.pager a:hover {
-    color: rgb(var(--color-secondary-contrast-rgb), 0.7);
 }
