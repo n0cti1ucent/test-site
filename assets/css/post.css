@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 .container {
     margin: 0 10%;
     font-family: 'Kosugi Maru', "Arial Rounded Mt", serif;
@@ -6,8 +9,8 @@
 
 .pager {
     width: 90%;
-    display: flex;
     text-align: center;
+    display: flex;
 }
 
 .pager a {
