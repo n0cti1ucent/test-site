@@ -8,9 +8,7 @@ body {
 }
 
 .pager {
-    width: 90%;
     display: flex;
-    margin: 0 auto;
 }
 
 .pager a {
@@ -23,7 +21,9 @@ body {
 
 .pager__item--next {
     margin-right: 10%;
+    margin-left: auto;
 }
 .pager__item--prev {
     margin-left: 10%;
+    margin-right: auto;
 }
