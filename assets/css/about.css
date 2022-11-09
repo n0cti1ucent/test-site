@@ -57,9 +57,11 @@ p {
 }
 
 .scrolldown {
+  top: 75%;
   font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
   color: var(--color-secondary);
   background-color: var(--color-secondary);
+  z-index: 2;
 }
 
 
