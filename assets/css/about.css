@@ -60,8 +60,34 @@ p {
   top: 75%;
   font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
   color: var(--color-secondary);
-  background-color: var(--color-secondary);
   z-index: 2;
+}
+.scrolldown span {
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+}
+.scrolldown:before {
+  content: "";
+    /*描画位置*/
+    position: absolute;
+    bottom: 0;
+    right: -6px;
+    /*矢印の形状*/
+    width: 1px;
+    height: 20px;
+    background-color: var(--color-secondary);
+    transform: skewX(-31deg);
+}
+.scrolldown:after{
+  content:"";
+    /*描画位置*/
+  position: absolute;
+  bottom:0;
+  right:0;
+    /*矢印の形状*/
+  width:1px;
+  height: 50px;
+  background-color: var(--color-secondary);
 }
 
 
