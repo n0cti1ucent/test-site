@@ -36,3 +36,15 @@ body {
     margin-left: auto;
     margin-right: 25%;
 }
+
+@media screen and (max-width: 768px){
+    .pager {
+        display: block;
+    }
+    .pager__item--next {
+        margin-left: 5%;
+    }
+    .pager__item--prev {
+        margin-right: 5%;
+    }
+}
