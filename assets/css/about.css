@@ -85,6 +85,7 @@ p {
   font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
   color: var(--color-secondary);
   z-index: 4;
+  position: absolute;
 }
 .scrolldown span {
   font-size: 0.7rem;
