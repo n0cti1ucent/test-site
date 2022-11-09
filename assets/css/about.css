@@ -198,7 +198,7 @@ p {
 }
 
 #container a {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   text-decoration: underline;
 }
 #container a:hover {
