@@ -80,7 +80,7 @@ p {
   animation-fill-mode: forwards;
 }
 
-.scrolldown {
+#scrolldown {
   top: 75%;
   left: 50%;
   font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
@@ -89,14 +89,14 @@ p {
   position: absolute;
   transform: translate(-50%, -50%);
 }
-.scrolldown span {
+#scrolldown span {
   font-size: 0.7rem;
   letter-spacing: 0.05em;
   position: absolute;
   transform: translate(-50%, -50%);
   padding-top: 15px;
 }
-.scrolldown:before {
+#scrolldown:before {
   content: "";
     /*描画位置*/
     position: absolute;
@@ -108,7 +108,7 @@ p {
     background-color: var(--color-secondary);
     transform: skewX(-31deg);
 }
-.scrolldown:after{
+#scrolldown:after{
   content:"";
     /*描画位置*/
   position: absolute;
@@ -119,7 +119,7 @@ p {
   height: 50px;
   background-color: var(--color-secondary);
 }
-.scrolldown.hidescroll {
+#scrolldown.hidescroll {
   display: none;
 }
 

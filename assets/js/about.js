@@ -47,10 +47,10 @@ function onPlayerStateChange(event) {
 function ScrollDown() {
     var scroll = $(window).scrollTop();
     if (scroll >= 100) {
-        $('.scrolldown').addClass('hidescroll');
+        $('#scrolldown').addClass('hidescroll');
     } else {
-        if($('.scrolldown').hasClass('LeftMove')) {
-            $('.scrolldown').removeClass('hidescroll');
+        if($('#scrolldown').hasClass('LeftMove')) {
+            $('#scrolldown').removeClass('hidescroll');
         }
     }
 }
