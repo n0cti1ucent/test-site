@@ -55,6 +55,7 @@ function ScrollDown() {
     } else {
         if($('#scrolldown').hasClass('LeftMove')) {
             $('#scrolldown').removeClass('hidescroll');
+            $('#scrolldown').addClass('showscroll');
         }
     }
 }

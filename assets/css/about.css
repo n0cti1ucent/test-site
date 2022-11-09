@@ -88,8 +88,8 @@ p {
   z-index: 4;
   position: absolute;
   transform: translate(-50%, -50%);
-  display: block;
 }
+
 #scrolldown span {
   font-size: 0.7rem;
   letter-spacing: 0.05em;
@@ -97,31 +97,38 @@ p {
   transform: translate(-50%, -50%);
   padding-top: 15px;
 }
+
 #scrolldown:before {
   content: "";
-    /*描画位置*/
-    position: absolute;
-    bottom: 0;
-    right: -6px;
-    /*矢印の形状*/
-    width: 1px;
-    height: 20px;
-    background-color: var(--color-secondary);
-    transform: skewX(-31deg);
-}
-#scrolldown:after{
-  content:"";
-    /*描画位置*/
+  /*描画位置*/
   position: absolute;
-  bottom:0;
-  right:0;
-    /*矢印の形状*/
-  width:1px;
+  bottom: 0;
+  right: -6px;
+  /*矢印の形状*/
+  width: 1px;
+  height: 20px;
+  background-color: var(--color-secondary);
+  transform: skewX(-31deg);
+}
+
+#scrolldown:after {
+  content: "";
+  /*描画位置*/
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /*矢印の形状*/
+  width: 1px;
   height: 50px;
   background-color: var(--color-secondary);
 }
+
 #scrolldown.hidescroll {
   display: none;
+}
+
+#scrolldown.showscroll {
+  display: block;
 }
 
 @keyframes PageAnimeAppear {
@@ -185,12 +192,12 @@ p {
   /*見た目の調整*/
   background: rgb(var(--color-primary-rgb), 0.7);
   color: var(--color-secondary);
-  
+
   padding: 300px 0;
   text-align: center;
 }
 
-#top-header h1{
+#top-header h1 {
   top: 1.3em;
 }
 
