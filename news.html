@@ -21,13 +21,8 @@ permalink: /news.html
         </a>
         {% else %}
         <a class="headline-entry" href="{{ post.url | relative_url }}">
-            {% if post.primaryImage == empty %}
-            <img class="lozad" src="/assets/img/sn.png" alt="samneil" data-loaded="true"
-                width="602" height="400">
-            {% else %}
             <img class="lozad" src="{{- post.primaryImage | relative_url -}}" alt="samneil" data-loaded="true"
                 width="602" height="400">
-            {% endif %}
             <div class="headline-text">
                 <small>{{ post.date | date: "%Y.%m.%d" }}</small>
                 <span>{{ post.title }}</span>
