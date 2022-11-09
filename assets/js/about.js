@@ -50,7 +50,7 @@ function onPlayerStateChange(event) {
 
 function ScrollDown() {
     var scroll = $(window).scrollTop();
-    if (scroll >= 100) {
+    if (scroll >= 200) {
         $('#scrolldown').addClass('hidescroll');
     } else {
         if($('#scrolldown').hasClass('LeftMove')) {
