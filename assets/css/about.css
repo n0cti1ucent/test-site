@@ -127,10 +127,6 @@ p {
   visibility: hidden;
 }
 
-/*#scrolldown.showscroll {
-  visibility: visible;
-}*/
-
 @keyframes PageAnimeAppear {
   0% {
     opacity: 0;
