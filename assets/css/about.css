@@ -82,6 +82,7 @@ p {
 
 .scrolldown {
   top: 75%;
+  left: 50%;
   font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
   color: var(--color-secondary);
   z-index: 4;
