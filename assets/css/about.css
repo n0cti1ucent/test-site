@@ -119,6 +119,9 @@ p {
   height: 50px;
   background-color: var(--color-secondary);
 }
+.scrolldown.hidescroll {
+  display: none;
+}
 
 @keyframes PageAnimeAppear {
   0% {

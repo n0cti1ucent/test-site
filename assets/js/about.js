@@ -43,3 +43,16 @@ function onPlayerStateChange(event) {
         event.target.playVideo();
     }
 }
+
+function ScrollDown() {
+    var scroll = $(window).scrollTop();
+    if (scroll <= 400) {
+        $('.scrolldown').addClass('hidescroll');
+    } else {
+        $('.scrolldown').removeClass('hidescroll');
+    }
+}
+
+$(window).on('load', function() {
+    ScrollDown();
+});
