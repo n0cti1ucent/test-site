@@ -7,7 +7,7 @@ permalink: /news.html
 <h2>news</h2>
 
 <div class="news-elements">
-    {% for post in site.posts reversed %}
+    {% for post in site.posts %}
     <div class="headline">
         {% if forloop.last %}
         <a class="headline-entry final-child" href="{{ post.url | relative_url }}">
