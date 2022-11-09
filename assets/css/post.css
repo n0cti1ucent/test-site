@@ -42,9 +42,11 @@ body {
         display: block;
     }
     .pager__item--next {
-        margin-left: 5%;
+        text-align: right;
+        margin-right: 5%;
     }
     .pager__item--prev {
-        margin-right: 5%;
+        text-align: left;
+        margin-left: 5%;
     }
 }
