@@ -21,7 +21,7 @@ permalink: /news.html
         </a>
         {% else %}
         <a class="headline-entry" href="{{ post.url | relative_url }}">
-            {% if !primaryImage %}
+            {% if !post.primaryImage %}
             <img class="lozad" src="/assets/img/sn.png" alt="samneil" data-loaded="true"
                 width="602" height="400">
             {% else %}
