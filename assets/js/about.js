@@ -2,6 +2,7 @@
 $(window).on('load', function () {
     $("#youtube-area").addClass('appear');
     $("#loading").addClass('disappear');
+    ScrollDown();
 });
 
 //youtube API
@@ -54,7 +55,3 @@ function ScrollDown() {
         }
     }
 }
-
-$(window).on('load', function() {
-    ScrollDown();
-});
