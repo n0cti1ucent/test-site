@@ -77,7 +77,7 @@ li {
 }
 
 .headline-entry:hover {
-    background-color: rgb(var(--color-primary-rgb), 0.2);
+    background-color: rgb(var(--color-primary-rgb), 0.1);
 }
 
 .final-child {
