@@ -56,11 +56,35 @@ p {
   display: none;
 }
 
+
+
+
+/* youtube設定 */
+
+#youtube-area {
+  position: fixed;
+  z-index: 1;
+  /*最背面に設定*/
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+/*jQueryで付与されたappearクラスがついたらYoutubeエリアをふわっと表示*/
+#youtube-area.appear {
+  animation-name: PageAnimeAppear;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
 .scrolldown {
   top: 75%;
   font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
   color: var(--color-secondary);
-  z-index: 2;
+  z-index: 4;
 }
 .scrolldown span {
   font-size: 0.7rem;
@@ -88,28 +112,6 @@ p {
   width:1px;
   height: 50px;
   background-color: var(--color-secondary);
-}
-
-
-/* youtube設定 */
-
-#youtube-area {
-  position: fixed;
-  z-index: 1;
-  /*最背面に設定*/
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-  opacity: 0;
-}
-
-/*jQueryで付与されたappearクラスがついたらYoutubeエリアをふわっと表示*/
-#youtube-area.appear {
-  animation-name: PageAnimeAppear;
-  animation-duration: .5s;
-  animation-fill-mode: forwards;
 }
 
 @keyframes PageAnimeAppear {
