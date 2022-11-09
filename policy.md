@@ -1,5 +1,6 @@
 ---
 layout: recruit
+permalink: /policy.html
 ---
 
 ### website policy
