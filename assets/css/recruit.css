@@ -44,12 +44,12 @@ img {
 
 
 .rec-item {
-    margin: 0 15%;
+    margin: 0 20%;
     margin-bottom: 50px;
 }
 @media screen and (max-width:768px) {
     .rec-item {
-        margin: 0 10%;
+        margin: 0 15%;
     }
     
 }
