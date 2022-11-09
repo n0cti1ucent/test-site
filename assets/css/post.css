@@ -14,8 +14,8 @@ body {
 }
 
 .pager {
-    bottom: 5%;
-    margin: 10% 0;
+    bottom: 5vh;
+    margin: 10vh 0;
     display: flex;
 }
 
