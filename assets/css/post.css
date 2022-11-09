@@ -15,7 +15,6 @@ body {
 
 .pager {
     margin: 5% 0;
-    margin-top: 15%;
     display: flex;
 }
 
@@ -26,6 +25,10 @@ body {
 
 .pager a:hover {
     color: var(--color-primary);
+}
+
+.page__body {
+    min-height: 20%;
 }
 
 .pager__item--next {
