@@ -52,10 +52,11 @@ function ScrollDown() {
     var scroll = $(window).scrollTop();
     if (scroll >= 200) {
         $('#scrolldown').addClass('hidescroll');
+        $('#scrolldown').removeClass('showscroll');
     } else {
         if($('#scrolldown').hasClass('LeftMove')) {
             $('#scrolldown').removeClass('hidescroll');
-            //$('#scrolldown').addClass('showscroll');
+            $('#scrolldown').addClass('showscroll');
         }
     }
 }
