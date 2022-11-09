@@ -2,6 +2,9 @@
 $(window).on('load', function () {
     $("#youtube-area").addClass('appear');
     $("#loading").addClass('disappear');
+});
+
+$(window).scroll(function () {
     ScrollDown();
 });
 
