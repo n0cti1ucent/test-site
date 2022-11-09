@@ -49,7 +49,9 @@ function ScrollDown() {
     if (scroll >= 100) {
         $('.scrolldown').addClass('hidescroll');
     } else {
-        $('.scrolldown').removeClass('hidescroll');
+        if($('.scrolldown').hasClass('LeftMove')) {
+            $('.scrolldown').removeClass('hidescroll');
+        }
     }
 }
 
