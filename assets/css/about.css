@@ -124,12 +124,12 @@ p {
 }
 
 #scrolldown.hidescroll {
-  display: none;
+  visibility: hidden;
 }
 
-#scrolldown.showscroll {
+/*#scrolldown.showscroll {
   display: block;
-}
+}*/
 
 @keyframes PageAnimeAppear {
   0% {
