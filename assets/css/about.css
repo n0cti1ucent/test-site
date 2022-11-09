@@ -91,11 +91,10 @@ p {
 }
 
 #scrolldown span {
-  font-size: 0.7rem;
   letter-spacing: 0.05em;
   position: absolute;
   transform: translate(-50%, -50%);
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 #scrolldown:before {
@@ -105,7 +104,7 @@ p {
   bottom: 0;
   right: -6px;
   /*矢印の形状*/
-  width: 1px;
+  width: 1.5px;
   height: 20px;
   background-color: var(--color-secondary);
   transform: skewX(-31deg);
@@ -118,7 +117,7 @@ p {
   bottom: 0;
   right: 0;
   /*矢印の形状*/
-  width: 1px;
+  width: 1.5px;
   height: 50px;
   background-color: var(--color-secondary);
 }
