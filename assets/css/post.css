@@ -28,7 +28,7 @@ body {
 }
 
 .page__body {
-    min-height: 20%;
+    min-height: 25vh;
 }
 
 .pager__item--next {
