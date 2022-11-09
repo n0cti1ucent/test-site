@@ -87,6 +87,7 @@ p {
   color: var(--color-secondary);
   z-index: 4;
   position: absolute;
+  transform: translate(-50%, -50%);
 }
 .scrolldown span {
   font-size: 0.7rem;
