@@ -91,6 +91,8 @@ p {
 }
 .scrolldown span {
   font-size: 0.7rem;
+  position: absolute;
+  left: -15%;
 }
 .scrolldown:before {
   content: "";
