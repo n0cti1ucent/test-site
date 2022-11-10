@@ -11,9 +11,9 @@
 <nav id="g-nav">
     <ul>
         <li>
-            {% for item in site.data.navigation %}
+            {% for i in (0..site.data.navigation.size) %}
             <a href="{{ item.link | relative_url }}" 
-            {% if page.url contains item.link[item] %}style="color: rgb(var(--color-secondary-contrast-rgb), 0.7);" 
+            {% if page.url contains item.link[i] %}style="color: rgb(var(--color-secondary-contrast-rgb), 0.7);" 
             {% endif %}>
                 {{ item.name }}
             </a>
