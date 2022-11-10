@@ -1,8 +1,8 @@
 <footer id="footer">
     <p id="page-top"><a href="#">Page Top</a></p>
     <small>&copy;nemius 2022
-        {% if page.url!='{{'policy.html' | relative_url}}' %}
+        {% unless page.url contains 'policy.html' %}
         <a href="{{ 'policy.html' | relative_url }}" id="site-policy">site policy</a>
-        {% endif %}
+        {% endunless %}
     </small>
 </footer>
