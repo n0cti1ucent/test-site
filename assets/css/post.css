@@ -2,12 +2,12 @@ body {
     margin: 0;
 }
 
-.news-page {
+#news-page {
     text-align: center;
     color: var(--color-primary-contrast);
     text-decoration: none;
 }
-.news-page:hover {
+#news-page:hover {
     color: var(--color-primary);
 }
 
