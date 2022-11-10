@@ -96,7 +96,7 @@ li {
 .lozad {
     width: 80px;
     object-fit: cover;
-    height: 40px;
+    height: 80px;
     color: var(--color-primary);
     font-size: small;
 }
