@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /news/index.html
 ---
 {% include navigation.html %}
 
@@ -38,7 +37,7 @@ permalink: /news/index.html
     <div class="pagination">
 
       {% if paginator.previous_page %}
-        <a class="pagination__item" href="{{ paginator.previous_page_path }}">&lt; 前のページ</a>
+        <a class="pagination__item" href="{{ paginator.previous_page_path | relative_url }}">&lt; 前のページ</a>
       {% endif %}
 
       <span class="pagination__item pagination__number">
