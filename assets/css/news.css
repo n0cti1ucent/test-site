@@ -108,6 +108,7 @@ li {
 
 /*pagination*/
 .pagination {
+    width: 50%;
     margin: 5% auto;
     display: flex;
     color: var(--color-primary-contrast);
