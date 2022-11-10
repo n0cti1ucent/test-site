@@ -12,8 +12,8 @@
     <ul>
         <li>
             {% for i in (0..site.data.navigation.size) %}
-            <a href="{{ item.link | relative_url }}" 
-            {% if page.url contains item.link[i] %}style="color: rgb(var(--color-secondary-contrast-rgb), 0.7);" 
+            <a href="{{ item[i].link | relative_url }}" 
+            {% if page.url contains item[i].link %}style="color: rgb(var(--color-secondary-contrast-rgb), 0.7);" 
             {% endif %}>
                 {{ item.name }}
             </a>
