@@ -59,10 +59,7 @@ li {
 }
 
 .news-elements {
-    /*display: flex;
-    flex-wrap: wrap;*/
     width: 50%;
-    flex: 1 0 auto;
     margin: auto;
 }
 
@@ -80,6 +77,10 @@ li {
     background-color: rgb(var(--color-primary-rgb), 0.1);
 }
 
+.headline-text {
+    padding: 0 1em;
+}
+
 .final-child {
     border-top: 1px solid #ddd;
     display: flex;
@@ -93,6 +94,8 @@ li {
     width: 40px;
     object-fit: cover;
     height: 40px;
+    color: var(--color-primary);
+    font-size: small;
 }
 
 .wrapper {

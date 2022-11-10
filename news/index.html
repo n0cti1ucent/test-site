@@ -11,7 +11,7 @@ layout: page
     <div class="headline">
         {% if forloop.last %}
         <a class="headline-entry final-child" href="{{ post.url | relative_url }}">
-            <img class="lozad" src="{{- post.primaryImage | relative_url -}}" alt="samneil" data-loaded="true"
+            <img class="lozad" src="{{- post.primaryImage | relative_url -}}" alt="news" data-loaded="true"
                 width="602" height="400">
             <div class="headline-text">
                 <small>{{ post.date | date: "%Y.%m.%d" }}</small>
@@ -21,7 +21,7 @@ layout: page
         </a>
         {% else %}
         <a class="headline-entry" href="{{ post.url | relative_url }}">
-            <img class="lozad" src="{{- post.primaryImage | relative_url -}}" alt="samneil" data-loaded="true"
+            <img class="lozad" src="{{- post.primaryImage | relative_url -}}" alt="news" data-loaded="true"
                 width="602" height="400">
             <div class="headline-text">
                 <small>{{ post.date | date: "%Y.%m.%d" }}</small>
