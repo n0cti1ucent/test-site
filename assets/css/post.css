@@ -4,10 +4,12 @@ body {
 
 #news-page {
     text-align: center;
+}
+#news-page a {
     color: var(--color-primary-contrast);
     text-decoration: none;
 }
-#news-page:hover {
+#news-page a:hover {
     color: var(--color-primary);
 }
 
