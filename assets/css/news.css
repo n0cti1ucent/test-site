@@ -117,8 +117,7 @@ li {
 }
 
 .pagination__item.pagination__number {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px;
 }
 
 /*@media screen and (max-width: 768px){
