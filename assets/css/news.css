@@ -81,6 +81,7 @@ li {
     display: flex;
     flex-direction: column;
     padding: 0 1em;
+    justify-content: center;
 }
 
 .final-child {
@@ -160,11 +161,6 @@ li {
     .sirases ul {
         margin: 0px;
         padding: 0px;
-    }
-
-    .lozad {
-        width: 20%;
-        height: auto;
     }
 
     .news-elements {
