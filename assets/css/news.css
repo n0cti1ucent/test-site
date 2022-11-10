@@ -109,6 +109,8 @@ li {
     display: flex;
     color: var(--color-primary-contrast);
     justify-content: center;
+    flex-direction: row;
+    align-items: center;
 }
 
 .pagination a {
