@@ -33,7 +33,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-paginate: 3
+paginate: 7
 paginate_path: /news/page:num
 
 # Exclude from processing.
