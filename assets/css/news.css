@@ -166,6 +166,10 @@ li {
         width: 100%;
     }
 
+    .pagination__item.pagination__number {
+        padding: auto 10px;
+    }
+
     /*.slider {
         padding:20px;
         background:#fff;
