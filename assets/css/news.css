@@ -63,14 +63,14 @@ li {
     flex-wrap: wrap;
     width: 50%;
     flex: 1 0 auto;
-    margin-bottom: 10%;
+    margin: auto;
 }
 
 .headline-entry {
     border-top: 1px solid #ddd;
     display: flex;
     flex-direction: row;
-    padding: 0 1em;
+    padding: 1em 1em;
     text-decoration: none;
     transition: background-clor .25s;
     color: var(--color-primary-contrast);
