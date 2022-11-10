@@ -102,7 +102,7 @@ li {
 
 /*pagination*/
 .pagination {
-    margin: 5% 0;
+    margin: 5% auto;
     display: flex;
 }
 
@@ -115,8 +115,8 @@ li {
     color: var(--color-primary);
 }
 
-.pagination__item {
-    margin: 5% auto;
+.pagination__item.pagination__number {
+    padding: 0 10px;
 }
 
 /*@media screen and (max-width: 768px){
