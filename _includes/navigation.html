@@ -13,7 +13,7 @@
         <li>
             {% for item in site.data.navigation %}
             <a href="{{ item.link | relative_url }}" 
-            {% if page.url==item.link %}style="color: rgb(var(--color-secondary-contrast-rgb), 0.7);"{% elsif page.url contains 'page' and page.url contains item.list  %}style="color: rgb(var(--color-secondary-contrast-rgb), 0.7);"
+            {% if page.url==item.link %}style="color: rgb(var(--color-secondary-contrast-rgb), 0.7);"{% elsif page.url contains 'page' and page.url contains item.list %}style="color: rgb(var(--color-secondary-contrast-rgb), 0.7);"
             {% endif %}>
                 {{ item.name }}
             </a>
