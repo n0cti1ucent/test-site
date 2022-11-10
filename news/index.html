@@ -1,0 +1,60 @@
+---
+layout: news
+permalink: /news/index.html
+---
+{% include navigation.html %}
+
+<h2>news</h2>
+
+<div class="news-elements">
+
+    {% for post in paginator.posts %}
+    <div class="headline">
+        {% if forloop.last %}
+        <a class="headline-entry final-child" href="{{ post.url | relative_url }}">
+            <img class="lozad" src="{{- post.primaryImage | relative_url -}}" alt="samneil" data-loaded="true"
+                width="602" height="400">
+            <div class="headline-text">
+                <small>{{ post.date | date: "%Y.%m.%d" }}</small>
+                <span>{{ post.title }}</span>
+                <p>{{ post.excerpt }}</p>
+            </div>
+        </a>
+        {% else %}
+        <a class="headline-entry" href="{{ post.url | relative_url }}">
+            <img class="lozad" src="{{- post.primaryImage | relative_url -}}" alt="samneil" data-loaded="true"
+                width="602" height="400">
+            <div class="headline-text">
+                <small>{{ post.date | date: "%Y.%m.%d" }}</small>
+                <span>{{ post.title }}</span>
+                <p>{{ post.excerpt }}</p>
+            </div>
+        </a>
+        {% endif %}
+    </div>
+    {% endfor %}
+
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+
+      {% if paginator.previous_page %}
+        <a class="pagination__item" href="{{ paginator.previous_page_path | relative_url }}">&lt; 前のページ</a>
+      {% endif %}
+
+      <span class="pagination__item pagination__number">
+        {{ paginator.page }} / {{ paginator.total_pages }}
+      </span>
+
+      {% if paginator.next_page %}
+        <a class="pagination__item" href="{{ paginator.next_page_path | relative_url }}">次のページ &gt;</a>
+      {% endif %}
+
+    </div><!--pagination-->
+  {% endif %}
+
+    <!--<div class="lazy-load">
+            <img src="assets/img/girl6.webp" alt="">
+        </div>-->
+</div>
+
+{% include _footer.html %}
