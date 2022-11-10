@@ -104,6 +104,7 @@ li {
 .pagination {
     margin: 5% auto;
     display: flex;
+    color: var(--color-primary-contrast);
 }
 
 .pagination a {
