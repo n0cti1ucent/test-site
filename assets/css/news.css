@@ -100,6 +100,31 @@ li {
     margin: 0 auto;
 }
 
+/*pagination*/
+.pagination {
+    margin: 5% 0;
+    display: flex;
+}
+
+.pagination a {
+    color: var(--color-primary-contrast);
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    color: var(--color-primary);
+}
+
+.pagination__item {
+    margin: 5% auto;
+}
+
+/*@media screen and (max-width: 768px){
+    .pagination {
+        display: block;
+    }
+}*/
+
 
 /*==================================================
 ニュースティッカーのためのcss

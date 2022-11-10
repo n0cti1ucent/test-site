@@ -3,7 +3,7 @@
 - name: about
   link: /about.html
 - name: news
-  link: /news.html
+  link: /news/
 - name: gallery
   link: /gallery.html
 - name: recruit
