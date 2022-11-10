@@ -84,7 +84,6 @@ li {
     border-top: 1px solid #ddd;
     display: flex;
     flex-direction: row;
-    padding: 0 1em;
     text-decoration: none;
     transition: background-clor .25s;
     border-bottom: 1px solid #ddd;
