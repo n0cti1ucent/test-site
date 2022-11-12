@@ -19,6 +19,7 @@ $('.slider').slick({
     centerMode: false,
     slidesToShow: 1,
     SlidesToScroll: 1,
+    pauseOnDotsHover: false
 });
 
 $('.slider').on('touchmove', function(event, slick, currentSlide, nextSlide){
