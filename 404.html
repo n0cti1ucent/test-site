@@ -46,10 +46,13 @@ layout: recruit
         left: 10%;
         bottom: 0;
     }
+
     #cat.active:after {
         animation: para 3.0s steps(5);
         animation-iteration-count: 2;
+        transition-timing-function: ease-in;
     }
+
     @keyframes para {
         to {
             background-position: -1600px 0;
@@ -147,7 +150,7 @@ layout: recruit
     function touch() {
         var $btn = $(".cat");
         $btn.addClass('active');
-        setTimeout(function() {
+        setTimeout(function () {
             $btn.removeClass('active');
         }, 3000);
     }
