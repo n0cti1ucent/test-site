@@ -116,14 +116,14 @@ footer {
 
 .slick-slide {
   line-height: 0;
-  padding: 10% 0;
+  /*padding: 10% 0;*/
 }
 .sticker a {
   color: var(--color-primary);
   text-decoration: none;
   display: block;
   background: var(--color-secondary);
-  padding: 20px;
+  padding: 5%;
 }
 
 .sticker {
