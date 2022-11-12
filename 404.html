@@ -14,7 +14,7 @@ layout: recruit
     <div class="button0">
         <a href="{{ '/' | relative_url }}">top</a>
     </div>
-    <div id="cat">
+    <div id="cat" onclick="touch()">
     </div>
 </div>
 <script src="assets/js/menu.js"></script>
@@ -144,13 +144,11 @@ layout: recruit
     }
 </style>
 <script>
-    $(function() {
-  var $touch = $(".cat");
-  $touch.click(function() {
-    $touch.addClass('active');
-    setTimeout(function() {
-    $touch.removeClass('active');
-    }, 3000);
-  });
-});
+    function touch() {
+        var $btn = $(".cat");
+        $btn.addClass('active');
+        setTimeout(function() {
+            $btn.removeClass('active');
+        }, 3000);
+    }
 </script>
