@@ -14,8 +14,8 @@ layout: recruit
     <div class="button0">
         <a href="{{ '/' | relative_url }}">top</a>
     </div>
-</div>
-<div id="cat">
+    <div id="cat">
+    </div>
 </div>
 <script src="assets/js/menu.js"></script>
 <style>
@@ -43,6 +43,9 @@ layout: recruit
         background: url('assets/img/cat.png') no-repeat;
         animation: para 5.0s steps(5) infinite;
         animation-delay: 8.0s;
+        position: relative;
+        right: auto;
+        left: 10%;
     }
     @keyframes para {
         to {
