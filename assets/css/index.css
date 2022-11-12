@@ -29,6 +29,10 @@ p {
   padding-bottom: 30px;
 }
 
+ul {
+  padding: 0;
+}
+
 header {
   height: 0px;
   color: #fff;
