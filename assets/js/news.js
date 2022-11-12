@@ -14,12 +14,12 @@ $('.slider').slick({
     fade: false,
     arrows: false,
     speed: 1000,
+    pauseOnFocus: false,
     vertical: true,
     verticalSwiping: true,
     centerMode: false,
     slidesToShow: 1,
-    SlidesToScroll: 1,
-    pauseOnFocus: false
+    SlidesToScroll: 1
 });
 
 $('.slider').on('touchmove', function(event, slick, currentSlide, nextSlide){
