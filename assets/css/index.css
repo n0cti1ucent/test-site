@@ -118,7 +118,7 @@ footer {
   line-height: 0;
   padding: 10% 0;
 }
-/*.sticker a {
+.sticker a {
   color: var(--color-primary);
   text-decoration: none;
   display: block;
@@ -129,15 +129,15 @@ footer {
 .sticker {
   padding-left: 0;
   list-style: none;
-}*/
+}
 
 /*日付*/
-/*.sticker span {
+.sticker span {
   display: inline-block;
   font-size: 0.8rem;
   margin-right: 10px;
   color: var(--color-primary);
-}*/
+}
 
 /*768px以下の見た目　※1行のままにしたい場合は不要*/
 /*@media screen and (max-width:768px) {
