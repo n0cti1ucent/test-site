@@ -26,8 +26,8 @@ $('.slider').slick({
 
 //index.html news sticker slider
 $('.news-sticker').slick({
-    pauseOnFocus: false,
     autoplay: true,
+    pauseOnFocus: false,
     infinite: true,
     fade: false,
     arrows: false,
