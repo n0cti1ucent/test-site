@@ -12,7 +12,7 @@ $('.sticker').slick({
     infinite: true,
     fade: false,
     arrows: false,
-    speed: 100,
+    speed: 1000,
     vertical: true,
     verticalSwiping: true,
     slidesToShow: 1,
