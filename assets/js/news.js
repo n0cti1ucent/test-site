@@ -14,7 +14,6 @@ $('.slick').slick({
     arrows: false,
     speed: 1000,
     vertical: true,
-    verticalSwiping: true,
     slidesToShow: 1,
     SlidesToScroll: 1,
 });
