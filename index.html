@@ -22,7 +22,7 @@ layout: hero
 <div class="wrapper">
   <ul class="slider">
     {% for post in site.posts limit:3 %}
-    <li><a href="#"><span>{{ post.date | date: "%Y.%m.%d" }}</span>{{ post.title }}</a></li>
+    <li><a href="{{ post.url | relative_url }}"><span>{{ post.date | date: "%Y.%m.%d" }}</span>{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
