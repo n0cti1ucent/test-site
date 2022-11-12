@@ -113,7 +113,7 @@ footer {
 ニュースティッカーのためのcss
 ===================================*/
 /*ニュース1行の周りの余白*/
-.slider a {
+.sticker a {
   color: var(--color-primary);
   text-decoration: none;
   display: block;
@@ -121,13 +121,13 @@ footer {
   padding: 20px;
 }
 
-.slider{
+.sticker {
   padding-left: 0;
   list-style: none;
 }
 
 /*日付*/
-.slider span {
+.sticker span {
   display: inline-block;
   font-size: 0.8rem;
   margin-right: 10px;
@@ -135,8 +135,8 @@ footer {
 }
 
 /*768px以下の見た目　※1行のままにしたい場合は不要*/
-@media screen and (max-width:768px) {
-  /*.slider {
+/*@media screen and (max-width:768px) {
+  .slider {
       padding-left: 0px;
   }
 
@@ -169,5 +169,5 @@ footer {
   .slider span {
       display:block;
   padding-bottom:10px;
-  }*/
-}
+  }
+}*/

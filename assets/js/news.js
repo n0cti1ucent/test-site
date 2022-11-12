@@ -7,9 +7,10 @@
 //    pager: false
 //});
 
-$('.slider').slick({
+$('.sticker').slick({
     autoplay: true,
     autoplaySpeed: 2000,
+    infinite: true,
     fade: false,
     speed: 1000,
     arrows: false,
