@@ -7,20 +7,19 @@
 //    pager: false
 //});
 
-$(document).on('ready', function() {
-    $('.slider').slick({
-        autoplay: true,
-        infinite: true,
-        fade: false,
-        arrows: false,
-        speed: 1000,
-        vertical: true,
-        verticalSwiping: true,
-        centerMode: false,
-        slidesToShow: 1,
-        SlidesToScroll: 1,
-    });
-})
+
+$('.slider').slick({
+    autoplay: true,
+    infinite: true,
+    fade: false,
+    arrows: false,
+    speed: 1000,
+    vertical: true,
+    verticalSwiping: true,
+    centerMode: false,
+    slidesToShow: 1,
+    SlidesToScroll: 1,
+});
 
 //$('input[name=".slick-slide"]').change(function() {
 //    slider.slick('setPosition');
