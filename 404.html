@@ -41,12 +41,15 @@ layout: recruit
         width: 320px;
         height: 320px;
         background: url('assets/img/cat.png') no-repeat;
-        animation: para 5.0s steps(5) infinite;
         animation-delay: 8.0s;
         position: absolute;
         right: auto;
         left: 10%;
         bottom: 0;
+    }
+    #cat:active {
+        animation: para 5.0s ease;
+        animation-iteration-count: 2;
     }
     @keyframes para {
         to {
