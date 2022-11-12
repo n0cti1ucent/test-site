@@ -35,7 +35,7 @@ p {
   font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
   /*ローディング画面時＆動画が表示されないときに表示する背景画像のレスポンシブ化*/
   /*background: url("/assets/img/header.webp") no-repeat;*/
-  /*background: rgb(var(--color-primary-rgb), 0.7);*/
+  background: rgb(var(--color-primary-rgb), 0.7);
   background-size: cover;
 }
 
@@ -167,6 +167,7 @@ p {
   z-index: 2;
 }
 
+/*youtube以外の動画*/
 #video-area{
   position: fixed;
   z-index: -1;/*最背面に設定*/
