@@ -9,12 +9,12 @@
 
 
 $('.slider').slick({
+    pauseOnFocus: false,
     autoplay: true,
     infinite: true,
     fade: false,
     arrows: false,
     speed: 1000,
-    pauseOnFocus: false,
     vertical: true,
     verticalSwiping: true,
     centerMode: false,
