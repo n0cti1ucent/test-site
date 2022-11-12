@@ -22,18 +22,6 @@ h1 {
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 75px;
-  }
-}
-
-@media screen and (max-width: 432px) {
-  h1 {
-    font-size: 50px;
-  }
-}
-
 p {
   font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
   color: rgb(var(--color-secondary-contrast-rgb), 0.7);
@@ -151,9 +139,25 @@ footer {
   .sticker a {
     padding: 10% 0;
   }
+  
+  h1 {
+    font-size: 75px;
+  }
+}
 
-  .sticker li {
-    margin: 0;
-    padding: 0;
+
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 90%;
+    margin: auto;
+  }
+
+  .sticker a {
+    padding: 10% 0;
+  }
+  
+  h1 {
+    font-size: 50px;
   }
 }
