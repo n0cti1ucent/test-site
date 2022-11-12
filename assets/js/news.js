@@ -17,3 +17,7 @@ $('.slick').slick({
     slidesToShow: 1,
     SlidesToScroll: 1,
 });
+
+$('input[name=".slick-slide"]').change(function() {
+    slider.slick('setPosition');
+});
