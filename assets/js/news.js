@@ -19,9 +19,9 @@ $('.slider').slick({
     centerMode: false,
     slidesToShow: 1,
     SlidesToScroll: 1,
-    pauseOnDotsHover: false
+    pauseOnFocus: false
 });
 
 $('.slider').on('touchmove', function(event, slick, currentSlide, nextSlide){
     $('.slider').slick('slickPlay');
-});
+})
