@@ -122,7 +122,6 @@ footer {
 }
 
 .slider {
-  /*padding-left: 0;*/
   list-style: none;
   visibility:hidden;
 }
@@ -142,13 +141,19 @@ footer {
 
 @media screen and (max-width:768px) {
   .wrapper {
-    width: 90%;
+    width: 70%;
+  }
+  h1 {
+    font-size: 75px;
+  }
+  #nav li {
+    margin-bottom: 10%;
   }
 }
 
 
 
-/*@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .wrapper {
     width: 90%;
     margin: auto;
@@ -161,4 +166,4 @@ footer {
   h1 {
     font-size: 50px;
   }
-}*/
+}
