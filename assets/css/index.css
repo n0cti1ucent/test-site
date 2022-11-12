@@ -116,6 +116,7 @@ footer {
   padding: 25px 0;
 }
 
+/*news sticker 読み込み時に一瞬縦で表示されるのを防ぐ*/
 .news-sticker.slick-initialized {
   visibility: visible;
 }
@@ -139,7 +140,6 @@ footer {
     padding-top: 50px;
   }
   #nav li {
-    width: 80%;
     margin-bottom: 10%;
   }
   #nav ul {
