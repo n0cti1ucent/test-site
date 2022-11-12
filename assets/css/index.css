@@ -114,7 +114,7 @@ footer {
 ===================================*/
 /*ニュース1行の周りの余白*/
 
-.sticker-slide {
+.slick-slide {
   line-height: 0;
   padding: 10% 0;
 }
