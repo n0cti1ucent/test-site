@@ -112,7 +112,7 @@ footer {
 .slider a {
   color: var(--color-primary);
   text-decoration: none;
-  /*display: block;*/
+  display: block;
   background: var(--color-secondary);
   padding: 4% 0;
 }
