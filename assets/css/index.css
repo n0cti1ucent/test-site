@@ -109,11 +109,16 @@ footer {
 ===================================*/
 /*ニュース1行の周りの余白*/
 
-.slick-slide {
+.news-sticker {
+  list-style: none;
+  visibility:hidden;
+}
+
+.news-sticker.slick-slide {
   line-height: 0;
 }
 
-.slider a {
+.news-sticker a {
   color: var(--color-primary);
   text-decoration: none;
   display: block;
@@ -121,17 +126,12 @@ footer {
   padding: 25px 0;
 }
 
-.slider {
-  list-style: none;
-  visibility:hidden;
-}
-
-.slider.slick-initialized {
+.news-sticker.slick-initialized {
   visibility: visible;
 }
 
 /*日付*/
-.slider span {
+.news-sticker span {
   display: inline-block;
   font-size: 0.8rem;
   margin:0 10px;
@@ -150,8 +150,6 @@ footer {
     margin-bottom: 10%;
   }
 }
-
-
 
 @media screen and (max-width: 480px) {
   .wrapper {
