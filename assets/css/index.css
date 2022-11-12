@@ -131,24 +131,24 @@ footer {
 }
 
 
-@media screen and (max-width:768px) {
+/*@media screen and (max-width:768px) {
   .wrapper {
     width: 90%;
-    /*margin: auto;*/
+    margin: auto;
   }
 
-  /*.slider a {
+  .slider a {
     padding: 10% 0;
   }
   
   h1 {
     font-size: 75px;
-  }*/
+  }
 }
 
 
 
-/*@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .wrapper {
     width: 90%;
     margin: auto;
