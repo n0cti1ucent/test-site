@@ -120,11 +120,11 @@ footer {
 .slider {
   /*padding-left: 0;*/
   list-style: none;
-  display: none;
+  visibility:hidden;
 }
 
 .slider.slick-initialized {
-  display: block;
+  visibility: visible;
 }
 
 /*日付*/
