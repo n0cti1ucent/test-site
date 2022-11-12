@@ -7,7 +7,7 @@
 //    pager: false
 //});
 
-$('.slick').slick({
+$('.slider').slick({
     autoplay: true,
     infinite: true,
     fade: false,
@@ -18,6 +18,6 @@ $('.slick').slick({
     SlidesToScroll: 1,
 });
 
-$('input[name=".slick-slide"]').change(function() {
-    slider.slick('setPosition');
-});
+//$('input[name=".slick-slide"]').change(function() {
+//    slider.slick('setPosition');
+//});

@@ -109,7 +109,7 @@ footer {
   line-height: 0;
 }
 
-.slick a {
+.slider a {
   color: var(--color-primary);
   text-decoration: none;
   display: block;
@@ -117,13 +117,13 @@ footer {
   padding: 4% 0;
 }
 
-.slick {
+.slider {
   padding-left: 0;
   list-style: none;
 }
 
 /*日付*/
-.slick span {
+.slider span {
   display: inline-block;
   font-size: 0.8rem;
   margin:0 10px;
@@ -137,7 +137,7 @@ footer {
     margin: auto;
   }
 
-  .slick a {
+  .slider a {
     padding: 10% 0;
   }
   
@@ -154,7 +154,7 @@ footer {
     margin: auto;
   }
 
-  .slick a {
+  .slider a {
     padding: 10% 0;
   }
   
