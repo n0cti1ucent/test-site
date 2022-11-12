@@ -18,7 +18,7 @@ h1 {
   font-family: 'Kosugi Maru', 瞬きノ明朝, serif;
   color: rgb(var(--color-primary-contrast-rgb), 0.7);
   margin: 0px;
-  padding-top: 100px;
+  line-height: 2;
   text-align: center;
 }
 
@@ -145,6 +145,8 @@ footer {
   }
   h1 {
     font-size: 75px;
+    line-height: 1.5;
+    padding-top: 50px;
   }
   #nav li {
     margin-bottom: 10%;
@@ -159,6 +161,8 @@ footer {
   
   h1 {
     font-size: 50px;
+    line-height: 1;
+    padding-top: 100px;
   }
   #nav li {
     margin-bottom: 15%;
