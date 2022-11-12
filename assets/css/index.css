@@ -73,6 +73,7 @@ footer {
   height: 10%;
   line-height: auto;
   width: 80%;
+  margin-top: 1.5%;
 }
 
 #nav li a {
@@ -84,17 +85,6 @@ footer {
 
 #nav li a:hover {
   color: rgb(var(--color-secondary-contrast-rgb), 0.7);
-}
-
-@media(max-width: 750px) {
-  #nav ul {
-    flex-wrap: wrap;
-  }
-
-  #nav li {
-    width: 80%;
-    margin-top: 2.5%;
-  }
 }
 
 .wrapper {
@@ -149,8 +139,11 @@ footer {
     padding-top: 50px;
   }
   #nav li {
-    margin-top: 2.5%;
+    width: 80%;
     margin-bottom: 10%;
+  }
+  #nav ul {
+    flex-wrap: wrap;
   }
 }
 
