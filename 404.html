@@ -47,7 +47,7 @@ layout: recruit
         left: 10%;
         bottom: 0;
     }
-    #cat:active {
+    #cat.active {
         animation: para 3.0s steps(5);
         animation-iteration-count: 2;
     }
@@ -144,3 +144,14 @@ layout: recruit
         right: 0.5em;
     }
 </style>
+<script>
+    $(function() {
+  var $touch = $(".cat");
+  $touch.click(function() {
+    $touch.addClass('active');
+    setTimeout(function() {
+    $touch.removeClass('active');
+    }, 300);
+  });
+});
+</script>
