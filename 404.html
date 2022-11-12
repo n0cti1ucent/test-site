@@ -37,7 +37,7 @@ layout: recruit
         }
     }
 
-    #cat {
+    #cat.active {
         width: 320px;
         height: 320px;
         background: url('assets/img/cat.png') no-repeat;
@@ -46,7 +46,7 @@ layout: recruit
         left: 10%;
         bottom: 0;
     }
-    #cat.active {
+    #cat.active:after {
         animation: para 3.0s steps(5);
         animation-iteration-count: 2;
     }
