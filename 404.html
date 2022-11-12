@@ -14,7 +14,7 @@ layout: recruit
     <div class="button0">
         <a href="{{ '/' | relative_url }}">top</a>
     </div>
-    <div id="cat" onclick="touch()">
+    <div class="cat" onclick="touch()">
     </div>
 </div>
 <script src="assets/js/menu.js"></script>
@@ -37,7 +37,7 @@ layout: recruit
         }
     }
 
-    #cat {
+    .cat {
         width: 320px;
         height: 320px;
         background: url('assets/img/cat.png') no-repeat;
@@ -47,7 +47,7 @@ layout: recruit
         bottom: 0;
     }
 
-    #cat.active:after {
+    .cat.active:after {
         animation: para 3.0s steps(5);
         animation-iteration-count: 2;
         transition-timing-function: ease-in;
