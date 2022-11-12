@@ -7,6 +7,7 @@
 
 
 body {
+  display: block;
   /* background-image: url("https://n0cti1ucent.github.io/test-site/assets/img/header.webp");
   background-size: cover;*/
   background-color: var(--color-primary);
@@ -94,6 +95,7 @@ footer {
 }
 
 .wrapper {
+  display: block;
   width: 50%;
   margin: 0 auto;
   padding: 0;
