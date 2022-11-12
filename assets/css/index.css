@@ -137,7 +137,7 @@ footer {
 .sticker span {
   display: inline-block;
   font-size: 0.8rem;
-  margin-right: 10px;
+  margin:0 10px;
   color: var(--color-primary);
 }
 
@@ -150,5 +150,10 @@ footer {
 
   .sticker a {
     padding: 10% 0;
+  }
+
+  .sticker li {
+    margin: 0;
+    padding: 0;
   }
 }
