@@ -21,6 +21,6 @@ $('.slider').slick({
     SlidesToScroll: 1,
 });
 
-//$('input[name=".slick-slide"]').change(function() {
-//    slider.slick('setPosition');
-//});
+$('.slider').on('touchmove', function(event, slick, currentSlide, nextSlide){
+    $('.slider').slick('slickPlay');
+});
