@@ -106,7 +106,7 @@ footer {
 }
 
 .wrapper {
-  width: 90%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -144,6 +144,7 @@ footer {
 
 @media screen and (max-width:768px) {
   .wrapper {
+    width: 90%;
     margin: auto;
   }
 
