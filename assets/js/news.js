@@ -7,7 +7,7 @@
 //    pager: false
 //});
 
-$('.sticker').slick({
+$('.slick').slick({
     autoplay: true,
     infinite: true,
     fade: false,
