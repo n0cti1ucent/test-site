@@ -96,8 +96,8 @@ footer {
 .wrapper {
   width: 50%;
   margin: 0 auto;
-  padding: 0;
-  overflow: hidden;
+  /*padding: 0;
+  overflow: hidden;*/
 }
 
 /*==================================================
@@ -105,25 +105,25 @@ footer {
 ===================================*/
 /*ニュース1行の周りの余白*/
 
-.slick-slide {
+/*.slick-slide {
   line-height: 0;
-}
+}*/
 
 .slider a {
   color: var(--color-primary);
   text-decoration: none;
-  display: block;
+  /*display: block;*/
   background: var(--color-secondary);
-  padding: 4% 0;
+  /*padding: 4% 0;*/
 }
 
 .slider {
-  padding-left: 0;
+  /*padding-left: 0;*/
   list-style: none;
 }
 
 /*日付*/
-.slider span {
+/*.slider span {
   display: inline-block;
   font-size: 0.8rem;
   margin:0 10px;
@@ -161,4 +161,4 @@ footer {
   h1 {
     font-size: 50px;
   }
-}
+}*/
