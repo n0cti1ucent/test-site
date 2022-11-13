@@ -11,9 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
     <link rel=”shortcut-icon” type="image/x-icon" href=“favicon.ico”>
-    <link rel="stylesheet" href="assets/css/gallery.css">
-    <link rel="stylesheet" href="assets/css/page-top.css">
-    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="{{ 'assets/css/page-top.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ 'assets/css/menu.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ 'assets/css/gallery.css' | relative_url }}">
     <title>{{ site.title }}</title>
 </head>
 
@@ -26,9 +26,9 @@
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
-    <script src="assets/js/gallery.js"></script>
-    <script src="assets/js/page-top.js"></script>
-    <script src="assets/js/menu.js"></script>
+    <script src="{{ 'assets/js/gallery.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/page-top.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/menu.js' | relative_url }}"></script>
 </body>
 
 </html>
