@@ -41,7 +41,8 @@ header {
 
 #footer {
   height: 30px;
-  padding: auto 0;
+  padding: 0;
+  line-height: 1.2em;
 }
 
 #nav {
