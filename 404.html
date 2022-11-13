@@ -3,8 +3,8 @@ permalink: /404.html
 layout: recruit
 ---
 
-<link rel="stylesheet" href="assets/css/menu.css">
-<link rel="stylesheet" href="assets/css/header.css">
+<link rel="stylesheet" href="{{ 'assets/css/menu.css' | relative_url }}">
+<link rel="stylesheet" href="{{ 'assets/css/header.css' | relative_url }}">
 {% include navigation.html %}
 <div class="not-found">
     <h1>404</h1>
@@ -17,7 +17,7 @@ layout: recruit
     <div class="cat" onclick="touch()">
     </div>
 </div>
-<script src="assets/js/menu.js"></script>
+<script src="{{ 'assets/js/menu.js' | relative_url }}"></script>
 <style>
     body {
         margin: 0px;
@@ -42,7 +42,7 @@ layout: recruit
     .cat {
         width: 320px;
         height: 320px;
-        background: url('assets/img/cat.png') no-repeat;
+        background: url("{{ 'assets/img/cat.png' | relative_url }}") no-repeat;
         position: absolute;
         right: auto;
         left: 10%;
