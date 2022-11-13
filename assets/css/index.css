@@ -41,12 +41,6 @@ header {
 
 #footer {
   height: auto;
-  background-color: rgb(var(--color-primary-rgb), 0.7);
-  color: var(--color-secondary);
-  text-align: center;
-  font-family: 'Kosugi Maru', sans-serif;
-  margin: 0 auto;
-  padding: 0;
 }
 
 #nav {
