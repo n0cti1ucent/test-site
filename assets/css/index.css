@@ -40,8 +40,8 @@ header {
 }
 
 #footer {
-  height: 25px;
-  padding-top: 0;
+  height: 30px;
+  padding: auto 0;
 }
 
 #nav {
