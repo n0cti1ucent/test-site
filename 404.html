@@ -152,6 +152,7 @@ layout: recruit
         $btn.addClass('active');
         setTimeout(function () {
             $btn.removeClass('active');
-        }, 1500);
+            window.location.href("{{ '/' | relative_url }}")
+        }, 2500);
     }
 </script>
