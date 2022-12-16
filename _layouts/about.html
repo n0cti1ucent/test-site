@@ -7,8 +7,12 @@
   <title>{{ site.title }}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
-
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" media="print"
+    onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" />
+  </noscript>
   <link rel="stylesheet" href="{{ 'assets/css/about.css' | relative_url }}">
   <link rel="stylesheet" href="{{ 'assets/css/menu.css' | relative_url }}">
 
