@@ -30,7 +30,7 @@ h1 {
 }*/
 
 h2 {
-    font-family: 'Kosugi Maru', "Arial Rounded Mt", serif;
+    font-family: 'Kosugi Maru', serif;
     text-align: center;
     color: var(--color-primary-contrast);
 }
