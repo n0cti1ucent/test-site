@@ -7,6 +7,10 @@
   --color-secondary-rgb: 247, 247, 247;
   --color-secondary-contrast: #e2fe02;
   --color-secondary-contrast-rgb: 226, 254, 2;
+}@font-face {
+  font-family: kosugimaru;
+  src: url("/kosugi-maru.ttf");
+  font-display: swap;
 }
 .top-bar {
   display: flex;
@@ -15,7 +19,7 @@
 
 #top-header {
   height: auto;
-  font-family: 'Kosugi Maru', serif;
+  font-family: kosugimaru, serif;
   color: var(--color-primary);
   margin: 0 auto;
   padding-right: 50px;
@@ -141,13 +145,13 @@
 /*リストのレイアウト設定*/
 
 #g-nav li {
-  font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
+  font-family: kosugimaru, "Arial Rounded Mt", sans-serif;
   list-style: none;
   text-align: center;
 }
 
 #g-nav li a {
-  font-family: 'Kosugi Maru', "Arial Rounded Mt", sans-serif;
+  font-family: kosugimaru, "Arial Rounded Mt", sans-serif;
   color: var(--color-secondary);
   text-decoration: none;
   padding: 10px;

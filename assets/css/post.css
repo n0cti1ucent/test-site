@@ -1,9 +1,13 @@
 body {
     margin: 0;
+}@font-face {
+    font-family: kosugimaru;
+    src: url("/kosugi-maru.ttf");
+    font-display: swap;
 }
 
 #news-page {
-    font-family: 'Kosugi Maru', serif;
+    font-family: kosugimaru, serif;
     text-align: center;
 }
 #news-page a {
@@ -17,12 +21,12 @@ body {
 .container {
     margin: 0 10%;
     font-family: "游ゴシック体 Medium", "YuGothic Medium", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック Medium", "Yu Gothic Medium", sans-serif;
-    /*font-family: 'Kosugi Maru', "Arial Rounded Mt", serif;*/
+    /*font-family: kosugimaru, "Arial Rounded Mt", serif;*/
     color: var(--color-primary-contrast);
 }
 
 .container h2 {
-  font-family: 'Kosugi Maru', serif;
+  font-family: kosugimaru, serif;
 }
 
 .pager {

@@ -4,18 +4,23 @@
     font-display: swap;
 }*/
 
+@font-face {
+    font-family: kosugimaru;
+    src: url("/kosugi-maru.ttf");
+    font-display: swap;
+}
 
 
 body {
     margin: 0px;
     color: var(--color-primary);
     font-family: "游ゴシック体 Medium", "YuGothic Medium", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック Medium", "Yu Gothic Medium", sans-serif;
-    /*font-family: 'Kosugi Maru', "Arial Rounded Mt", serif;*/
+    /*font-family: kosugimaru, "Arial Rounded Mt", serif;*/
 }
 
 /*header {
     font-size: 70px;
-    font-family: 'Kosugi Maru', 瞬きノ明朝, serif;
+    font-family: kosugimaru, 瞬きノ明朝, serif;
     color: var(--color-primary);
     margin: 0px;
     text-align: center;
@@ -23,14 +28,14 @@ body {
 
 h1 {
     font-size: 70px;
-    font-family: 'Kosugi Maru', 瞬きノ明朝, serif;
+    font-family: kosugimaru, 瞬きノ明朝, serif;
     color: var(--color-primary);
     margin: 0px;
     text-align: center;
 }*/
 
 h2 {
-    font-family: 'Kosugi Maru', serif;
+    font-family: kosugimaru, serif;
     text-align: center;
     color: var(--color-primary-contrast);
 }
