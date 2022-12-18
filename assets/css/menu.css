@@ -1,3 +1,8 @@
+@font-face {
+  font-family: kosugimaru;
+  src: url("/test-site/kosugi-maru.ttf");
+  font-display: swap;
+}
 :root {
   --color-primary: #aeaeac;
   --color-primary-rgb: 174, 174, 172;
@@ -7,10 +12,6 @@
   --color-secondary-rgb: 247, 247, 247;
   --color-secondary-contrast: #e2fe02;
   --color-secondary-contrast-rgb: 226, 254, 2;
-}@font-face {
-  font-family: kosugimaru;
-  src: url("/test-site/kosugi-maru.ttf");
-  font-display: swap;
 }
 .top-bar {
   display: flex;

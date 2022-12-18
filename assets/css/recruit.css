@@ -2,7 +2,8 @@
     font-family: 瞬きノ明朝;
     src: url("MatatakiMincho/mirage.otf");
     font-display: swap;
-}*/@font-face {
+}*/
+@font-face {
     font-family: kosugimaru;
     src: url("/test-site/kosugi-maru.ttf");
     font-display: swap;
