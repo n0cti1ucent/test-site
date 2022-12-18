@@ -155,7 +155,8 @@ p {
   color: var(--color-secondary);
   padding: 5vh 0;
   text-align: center;
-  min-height: 100vh;
+  min-height: 80vh;
+  margin-bottom: 5vh;
 }
 
 #container a {
