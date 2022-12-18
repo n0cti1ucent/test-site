@@ -35,7 +35,7 @@ p {
 #header-area {
   position: relative;
   /*ローディング画像などを表示す際の基点とするため指定*/
-  height: 100vh;
+  height: 150vh;
   /*高さを全画面にあわせる*/
   text-align: center;
   color: var(--color-secondary);
