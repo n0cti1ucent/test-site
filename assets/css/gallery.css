@@ -174,7 +174,7 @@ a {
 
 
 @media screen and (max-height: 430px) {
-    .modaal-content-container {
+    .modaal-container {
         width: 75%;
     }
 }
