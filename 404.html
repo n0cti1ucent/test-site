@@ -18,6 +18,12 @@ layout: recruit
 </div>
 <script src="{{ 'assets/js/menu.js' | relative_url }}"></script>
 <style>
+    @font-face {
+        font-family: kosugimaru;
+        src: url("/test-site/kosugi-maru.ttf");
+        font-display: swap;
+    }
+
     body {
         margin: 0px;
         color: var(--color-primary);
@@ -152,8 +158,8 @@ layout: recruit
         $btn.addClass('active');
         setTimeout(function () {
             $btn.removeClass('active');
-            setTimeout(function() {
-            window.location.href('/');
+            setTimeout(function () {
+                window.location.href('/');
             }, 2500);
         }, 3000);
     }

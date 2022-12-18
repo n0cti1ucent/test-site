@@ -9,7 +9,7 @@
   --color-secondary-contrast-rgb: 226, 254, 2;
 }@font-face {
   font-family: kosugimaru;
-  src: url("{{ /kosugi-maru.ttf | relative_url }}");
+  src: url("/test-site/kosugi-maru.ttf");
   font-display: swap;
 }
 .top-bar {

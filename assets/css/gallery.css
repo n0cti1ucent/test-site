@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: kosugimaru;
-    src: url("{{ /kosugi-maru.ttf | relative_url }}");
+    src: url("/test-site/kosugi-maru.ttf");
     font-display: swap;
 }
 
