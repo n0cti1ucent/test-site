@@ -256,7 +256,7 @@ p {
   }
 }
 
-@media screen and (min-height: 430px) {
+@media screen and (max-height: 430px) {
   #loading {
     margin-top: 25vh;
   }
