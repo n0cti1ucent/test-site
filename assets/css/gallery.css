@@ -98,6 +98,12 @@ a {
     }
 }
 
+@media screen and (max-height: 430px) {
+    .modaal-content-container {
+        max-width: 75%;
+    }
+}
+
 /*modaal*/
 .hide-area {
     display: none;
