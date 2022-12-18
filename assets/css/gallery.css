@@ -98,11 +98,6 @@ a {
     }
 }
 
-@media screen and (max-height: 430px) {
-    .modaal-content-container {
-        width: 75%;
-    }
-}
 
 /*modaal*/
 .hide-area {
@@ -175,4 +170,11 @@ a {
     transform: translate(50%, -50%);
     font-size: 96px;
     color: rgb(var(--color-secondary-contrast-rgb), 0.7);
+}
+
+
+@media screen and (max-height: 430px) {
+    .modaal-content-container {
+        width: 75%;
+    }
 }
