@@ -257,9 +257,9 @@ p {
 }
 @media screen and (min-width: 481px) {
   #loading {
-    margin-top: 10vh;
+    margin-top: 15vh;
   }
   #scrolldown {
-    top: 100vh;
+    top: 95vh;
   }
 }
