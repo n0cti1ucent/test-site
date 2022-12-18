@@ -255,3 +255,11 @@ p {
   margin-bottom: 15vh;
   }
 }
+@media screen and (min-width: 481px) {
+  #loading {
+    margin-top: 10vh;
+  }
+  #scrolldown {
+    top: 100vh;
+  }
+}
