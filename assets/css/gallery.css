@@ -180,10 +180,6 @@ a {
     font-size: 96px;
 }
 
-.ph-video {
-    background-image: url('/assets/img/monitor-play.webp');
-}
-
 
 @media screen and (max-height: 430px) {
     .modaal-container {
