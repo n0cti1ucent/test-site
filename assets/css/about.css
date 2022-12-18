@@ -202,7 +202,7 @@ p {
 #scrolldown {
   top: 75%;
   left: 50%;
-  font-family: kosugimaru, "Arial Rounded Mt", sans-serif;
+  font-family: kosugimaru, sans-serif;
   color: var(--color-secondary);
   z-index: 4;
   position: absolute;
