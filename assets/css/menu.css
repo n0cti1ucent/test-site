@@ -20,7 +20,7 @@
 
 #top-header {
   height: auto;
-  font-family: kosugimaru, inherit;
+  font-family: kosugimaru;
   color: var(--color-primary);
   margin: 0 auto;
   padding-right: 50px;
@@ -146,13 +146,13 @@
 /*リストのレイアウト設定*/
 
 #g-nav li {
-  font-family: kosugimaru, inherit;
+  font-family: kosugimaru;
   list-style: none;
   text-align: center;
 }
 
 #g-nav li a {
-  font-family: kosugimaru, inherit;
+  font-family: kosugimaru;
   color: var(--color-secondary);
   text-decoration: none;
   padding: 10px;

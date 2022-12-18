@@ -14,7 +14,7 @@
         width: 60px;
         height: 60px;
         color: var(--color-secondary-contrast);
-        font-family: kosugimaru, inherit;
+        font-family: kosugimaru;
         text-align: center;
         text-transform: uppercase;
         text-decoration: none;
@@ -41,7 +41,7 @@
         width: 60px;
         height: 60px;
         color: var(--color-secondary-contrast);
-        font-family: kosugimaru, inherit;
+        font-family: kosugimaru;
         text-align: center;
         text-transform: uppercase;
         text-decoration: none;
@@ -63,7 +63,7 @@
     background-color: rgb(var(--color-primary-rgb), 0.7);
     color: var(--color-secondary);
     text-align: center;
-    font-family: kosugimaru, inherit;
+    font-family: kosugimaru;
     padding-top: 30px;
 }
 

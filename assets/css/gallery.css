@@ -35,7 +35,7 @@ h1 {
 }*/
 
 h2 {
-    font-family: kosugimaru, inherit;
+    font-family: kosugimaru;
     text-align: center;
     color: var(--color-primary-contrast);
 }

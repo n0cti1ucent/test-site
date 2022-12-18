@@ -11,7 +11,7 @@ body {
 }
 
 #news-page {
-    font-family: kosugimaru, inherit;
+    font-family: kosugimaru;
     text-align: center;
 }
 #news-page a {
@@ -30,7 +30,7 @@ body {
 }
 
 .container h2 {
-  font-family: kosugimaru, inherit;
+  font-family: kosugimaru;
 }
 
 .pager {
