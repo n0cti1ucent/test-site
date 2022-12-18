@@ -204,7 +204,7 @@ p {
 
 
 #scrolldown {
-  top: 75%;
+  top: 75vh;
   left: 50%;
   font-family: kosugimaru;
   color: var(--color-secondary);
