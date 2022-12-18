@@ -51,11 +51,13 @@ p {
 #loading {
   font-size: 16px;
   position: absolute;
-  top: 40%;
-  left: 50%;
+  /*top: 40%;
+  left: 50%;*/
   transform: translate(-50%, -50%);
   font-weight: bold;
   text-align: center;
+  margin: 0 50%;
+  margin-top: 25vh;
 }
 
 #loading i {
@@ -250,6 +252,6 @@ p {
 @media only screen and (max-width: 768px) {
   #container {
   min-height: 60vh;
-  margin-bottom: 10vh;
+  margin-bottom: 15vh;
   }
 }
