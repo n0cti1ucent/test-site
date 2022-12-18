@@ -1,9 +1,9 @@
-
 @font-face {
     font-family: kosugimaru;
     src: url("/test-site/kosugi-maru.ttf");
     font-display: swap;
 }
+
 @media (hover: hover) {
     #page-top a {
         display: flex;
@@ -14,7 +14,7 @@
         width: 60px;
         height: 60px;
         color: var(--color-secondary-contrast);
-        font-family: kosugimaru, "Arial Rounded Mt", sans-serif;
+        font-family: kosugimaru, inherit;
         text-align: center;
         text-transform: uppercase;
         text-decoration: none;
@@ -41,7 +41,7 @@
         width: 60px;
         height: 60px;
         color: var(--color-secondary-contrast);
-        font-family: kosugimaru, "Arial Rounded Mt", sans-serif;
+        font-family: kosugimaru, inherit;
         text-align: center;
         text-transform: uppercase;
         text-decoration: none;
@@ -63,7 +63,7 @@
     background-color: rgb(var(--color-primary-rgb), 0.7);
     color: var(--color-secondary);
     text-align: center;
-    font-family: kosugimaru, serif;
+    font-family: kosugimaru, inherit;
     padding-top: 30px;
 }
 
@@ -81,7 +81,7 @@ header {
     background-color: rgb(var(--color-primary-rgb), 0.7);
     color: #fff;
     text-align: center;
-    font-family: kosugimaru, "游ゴシック体 Medium", "YuGothic Medium", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック Medium", "Yu Gothic Medium", sans-serif;
+    font-family: kosugimaru, sans-serif;
     padding-top: 30px;
     margin-bottom: 0%;
   }*/

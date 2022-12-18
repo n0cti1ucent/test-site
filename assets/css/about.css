@@ -10,7 +10,7 @@ body {
 
 #header-area h1 {
   font-size: 70px;
-  font-family: kosugimaru, serif;
+  font-family: kosugimaru, inherit;
   color: var(--color-secondary);
   padding-top: 100px;
   text-align: center;
@@ -38,7 +38,7 @@ p {
   /*高さを全画面にあわせる*/
   text-align: center;
   color: var(--color-secondary);
-  font-family: kosugimaru, "Arial Rounded Mt", sans-serif;
+  font-family: kosugimaru, inherit;
   /*ローディング画面時＆動画が表示されないときに表示する背景画像のレスポンシブ化*/
   /*background: url("/assets/img/header.webp") no-repeat;*/
   background: rgb(var(--color-primary-rgb), 0.7);
@@ -202,7 +202,7 @@ p {
 #scrolldown {
   top: 75%;
   left: 50%;
-  font-family: kosugimaru, "游ゴシック体 Medium", "YuGothic Medium", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック Medium", "Yu Gothic Medium", sans-serif;
+  font-family: kosugimaru, inherit;
   color: var(--color-secondary);
   z-index: 4;
   position: absolute;

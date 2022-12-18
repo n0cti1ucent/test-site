@@ -12,13 +12,14 @@
 body {
   /* background-image: url("https://n0cti1ucent.github.io/test-site/assets/img/header.webp");
   background-size: cover;*/
+    font-family: "游ゴシック体 Medium", "YuGothic Medium", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック Medium", "Yu Gothic Medium", sans-serif;
   background-color: var(--color-primary);
   margin: 0px;
 }
 
 h1 {
   font-size: 100px;
-  font-family: kosugimaru, 瞬きノ明朝, serif;
+  font-family: kosugimaru, inherit;
   color: rgb(var(--color-primary-contrast-rgb), 0.7);
   margin: 0px;
   line-height: 2;
@@ -26,7 +27,7 @@ h1 {
 }
 
 p {
-  font-family: kosugimaru, "Arial Rounded Mt", sans-serif;
+  font-family: kosugimaru, inherit;
   color: rgb(var(--color-secondary-contrast-rgb), 0.7);
   text-align: center;
   padding-bottom: 30px;
@@ -49,7 +50,7 @@ header {
 }
 
 #nav {
-  font-family: kosugimaru, serif;
+  font-family: kosugimaru, inherit;
   margin: 5% auto;
   border-top: 1px solid var(--color-secondary);
   list-style: none;
