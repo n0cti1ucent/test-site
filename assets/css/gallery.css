@@ -177,13 +177,8 @@ a {
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
-    font-size: 96px;
+    width: 96px;
 }
-
-.ph-video {
-    size: 32;
-}
-
 
 @media screen and (max-height: 430px) {
     .modaal-container {
