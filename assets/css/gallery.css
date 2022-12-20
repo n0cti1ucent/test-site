@@ -171,10 +171,6 @@ a {
     width: 96px;
 }
 
-.ph-video{
-    width: 96px;
-}
-
 @media screen and (max-height: 430px) {
     .modaal-container {
         width: 75%;
