@@ -16,7 +16,7 @@ layout: gallery
         <a href="#{{ page_num }}" class="gallery">
             <div class="mv">
                 <img src="{{- opus.primaryImage | relative_url -}}" alt="{{ opus.number}}">
-                <img src="{{- '/assets/img/monitor-play.webp' | relative_url -}}" alt="" class="ph-video" style="width:96px;">
+                <img src="{{- '/assets/img/monitor-play.webp' | relative_url -}}" alt="" class="ph-video" style="width:96px;" loading="lazy">
             </div>
         </a>
     </li>
@@ -33,7 +33,7 @@ layout: gallery
         <a href="#{{ page_num }}" class="gallery">
             <div class="mv">
                 <img src="{{- opus.primaryImage | relative_url -}}" alt="{{ opus.number}}">
-                <img src="{{- '/assets/img/music-note.webp' | relative_url -}}" alt="" class="ph-audio" style="width:96px;">
+                <img src="{{- '/assets/img/music-note.webp' | relative_url -}}" alt="" class="ph-audio" style="width:96px;" loading="lazy">
             </div>
         </a>
     </li>
