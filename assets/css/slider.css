@@ -82,9 +82,9 @@
 .slick-dots button {
     color: transparent;
     outline: none;
-    width: 5px;
+    width: 10px;
     /*ドットボタンのサイズ*/
-    height: 5px;
+    height: 10px;
     /*ドットボタンのサイズ*/
     display: block;
     border: 0;
