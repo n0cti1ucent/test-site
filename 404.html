@@ -4,19 +4,6 @@ layout: recruit
 ---
 
 <link rel="stylesheet" href="{{ 'assets/css/menu.css' | relative_url }}">
-{% include navigation.html %}
-<div class="not-found">
-    <h1>404</h1>
-    <p>The page you're looking for can't be found.</p>
-    <p>お探しのページは見つかりませんでした。</p>
-    <p>トップページへ</p>
-    <div class="button0">
-        <a href="{{ '/' | relative_url }}">top</a>
-    </div>
-    <div class="cat" onclick="touch()">
-    </div>
-</div>
-<script src="{{ 'assets/js/menu.js' | relative_url }}"></script>
 <style>
     @font-face {
         font-family: kosugimaru;
@@ -30,7 +17,7 @@ layout: recruit
         font-family: kosugimaru, "游ゴシック体 Medium", "YuGothic Medium", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック Medium", "Yu Gothic Medium", sans-serif;
         text-align: center;
         animation: bgchange 10s forwards;
-        animation-delay: 22s;
+        animation-delay: 7s;
         transition-timing-function: ease-in;
     }
 
@@ -152,6 +139,19 @@ layout: recruit
         right: 0.5em;
     }
 </style>
+{% include navigation.html %}
+<div class="not-found">
+    <h1>404</h1>
+    <p>The page you're looking for can't be found.</p>
+    <p>お探しのページは見つかりませんでした。</p>
+    <p>トップページへ</p>
+    <div class="button0">
+        <a href="{{ '/' | relative_url }}">top</a>
+    </div>
+    <div class="cat" onclick="touch()">
+    </div>
+</div>
+<script src="{{ 'assets/js/menu.js' | relative_url }}"></script>
 <script>
     function touch() {
         var $btn = $(".cat");
