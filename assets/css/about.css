@@ -39,9 +39,6 @@ p {
   /*高さを全画面にあわせる*/
   text-align: center;
   color: var(--color-secondary);
-  font-family: kosugimaru;
-  /*ローディング画面時＆動画が表示されないときに表示する背景画像のレスポンシブ化*/
-  /*background: url("/assets/img/header.webp") no-repeat;*/
   background: rgb(var(--color-primary-rgb), 0.7);
   background-size: cover;
 }
@@ -60,17 +57,11 @@ p {
   margin-top: 40vh;
 }
 
-#loading i {
-  font-size: 32px;
-}
-
 /*jQueryで付与されたdisappearクラスがついたらロゴエリアを非表示*/
 
 #loading.disappear {
   display: none;
 }
-
-
 
 
 /* youtube設定 */
