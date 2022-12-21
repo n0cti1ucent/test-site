@@ -107,7 +107,7 @@
 
 @media screen and (max-width:426px) {
     .slick-dots button {
-        width: 10px;
-        height: 20px;
+        width: 5px;
+        height: 10px;
     }
 }
