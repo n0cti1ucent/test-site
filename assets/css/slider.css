@@ -104,10 +104,8 @@
         font-size: 12px;
     }
     .slick-dots button {
+        width: 20px;
         height: 20px;
         transform: scale(0.5);
     }
-}
-
-@media screen and (max-width:426px) {
 }
